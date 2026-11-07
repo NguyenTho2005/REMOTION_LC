@@ -1,0 +1,38 @@
+[
+  {
+    "id": "track-1-0176327e",
+    "asset_id": "0176327e-b5f4-4c87-adc8-db12e6be19fd",
+    "name": "Voice: Mai Chi",
+    "src": "audio/generated/0176327e-b5f4-4c87-adc8-db12e6be19fd.wav",
+    "voice_id": "maichi",
+    "voice_name": "Mai Chi",
+    "text": "Xin chào, chào mừng các bạn đến với video Remotion kết hợp ZeroTTS.",
+    "start_frame": 0,
+    "duration_in_frames": 139,
+    "volume": 1.0
+  },
+  {
+    "id": "track-2-9a25e6d2",
+    "asset_id": "9a25e6d2-6564-4c11-b9f2-df91c797bfb5",
+    "name": "Voice: Gia Huy",
+    "src": "audio/generated/9a25e6d2-6564-4c11-b9f2-df91c797bfb5.wav",
+    "voice_id": "giahuy",
+    "voice_name": "Gia Huy",
+    "text": "Xin chào, tôi là Gia Huy, đây là giọng đọc tiếng Việt mẫu từ ZeroTTS.",
+    "start_frame": 145,
+    "duration_in_frames": 137,
+    "volume": 1.0
+  },
+  {
+    "id": "track-3-8a9a3a65",
+    "asset_id": "8a9a3a65-9a8b-4fc6-9618-58a3667e5633",
+    "name": "Voice: Kim Oanh",
+    "src": "audio/generated/8a9a3a65-9a8b-4fc6-9618-58a3667e5633.wav",
+    "voice_id": "kimoanh",
+    "voice_name": "Kim Oanh",
+    "text": "Kiểm tra API tạo giọng nói trực tiếp.",
+    "start_frame": 288,
+    "duration_in_frames": 72,
+    "volume": 1.0
+  }
+]

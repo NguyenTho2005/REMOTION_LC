@@ -1,0 +1,12 @@
+{
+  "asset_id": "0176327e-b5f4-4c87-adc8-db12e6be19fd",
+  "voice_id": "maichi",
+  "voice_name": "Mai Chi",
+  "text": "Xin chào, chào mừng các bạn đến với video Remotion kết hợp ZeroTTS.",
+  "file_name": "0176327e-b5f4-4c87-adc8-db12e6be19fd.wav",
+  "audio_url": "/audio/generated/0176327e-b5f4-4c87-adc8-db12e6be19fd.wav",
+  "duration": 4.64,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:30:11.765501+00:00",
+  "status": "completed"
+}

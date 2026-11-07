@@ -1,0 +1,12 @@
+{
+  "asset_id": "9a25e6d2-6564-4c11-b9f2-df91c797bfb5",
+  "voice_id": "giahuy",
+  "voice_name": "Gia Huy",
+  "text": "Xin chào, tôi là Gia Huy, đây là giọng đọc tiếng Việt mẫu từ ZeroTTS.",
+  "file_name": "9a25e6d2-6564-4c11-b9f2-df91c797bfb5.wav",
+  "audio_url": "/audio/generated/9a25e6d2-6564-4c11-b9f2-df91c797bfb5.wav",
+  "duration": 4.56,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:32:29.128083+00:00",
+  "status": "completed"
+}

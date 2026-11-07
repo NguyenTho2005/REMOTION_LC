@@ -1,0 +1,12 @@
+{
+  "asset_id": "14d91617-7842-4db1-8b6f-8c524c7f4db3",
+  "voice_id": "giahuy",
+  "voice_name": "Gia Huy",
+  "text": "Remotion là một framework mạnh mẽ cho phép chúng ta tạo video bằng React và TypeScript. Với ZeroTTS, chúng ta có thể sinh giọng đọc tiếng Việt mượt mà với 8 preset khác nhau. Tất cả các đoạn văn đều được chia nhỏ theo câu và ghép nối hoàn hảo.",
+  "file_name": "14d91617-7842-4db1-8b6f-8c524c7f4db3.wav",
+  "audio_url": "/audio/generated/14d91617-7842-4db1-8b6f-8c524c7f4db3.wav",
+  "duration": 15.28,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:22:20.380789Z",
+  "status": "completed"
+}

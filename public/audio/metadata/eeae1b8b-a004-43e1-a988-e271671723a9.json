@@ -1,0 +1,12 @@
+{
+  "asset_id": "eeae1b8b-a004-43e1-a988-e271671723a9",
+  "voice_id": "baotrang",
+  "voice_name": "Bảo Trang",
+  "text": "Xin chào các bạn, chào mừng các bạn đến với studio âm thanh tiếng Việt.",
+  "file_name": "eeae1b8b-a004-43e1-a988-e271671723a9.wav",
+  "audio_url": "/audio/generated/eeae1b8b-a004-43e1-a988-e271671723a9.wav",
+  "duration": 3.28,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:22:51.521735+00:00",
+  "status": "completed"
+}

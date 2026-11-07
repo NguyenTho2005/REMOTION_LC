@@ -1,0 +1,12 @@
+{
+  "asset_id": "8a9a3a65-9a8b-4fc6-9618-58a3667e5633",
+  "voice_id": "kimoanh",
+  "voice_name": "Kim Oanh",
+  "text": "Kiểm tra API tạo giọng nói trực tiếp.",
+  "file_name": "8a9a3a65-9a8b-4fc6-9618-58a3667e5633.wav",
+  "audio_url": "/audio/generated/8a9a3a65-9a8b-4fc6-9618-58a3667e5633.wav",
+  "duration": 2.4,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:37:55.803011+00:00",
+  "status": "completed"
+}

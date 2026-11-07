@@ -1,0 +1,12 @@
+{
+  "asset_id": "bde71b0f-fc80-417d-84f9-31abe8038da5",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Xin chào, tôi là Quang Minh, đây là giọng đọc tiếng Việt mẫu từ ZeroTTS.",
+  "file_name": "bde71b0f-fc80-417d-84f9-31abe8038da5.wav",
+  "audio_url": "/audio/generated/bde71b0f-fc80-417d-84f9-31abe8038da5.wav",
+  "duration": 3.76,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:32:39.074199+00:00",
+  "status": "completed"
+}

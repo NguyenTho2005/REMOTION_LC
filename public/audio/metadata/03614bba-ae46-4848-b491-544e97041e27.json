@@ -1,0 +1,12 @@
+{
+  "asset_id": "03614bba-ae46-4848-b491-544e97041e27",
+  "voice_id": "hamy",
+  "voice_name": "Hà My",
+  "text": "Xin chào, tôi là Hà My, đây là giọng đọc tiếng Việt mẫu từ ZeroTTS.",
+  "file_name": "03614bba-ae46-4848-b491-544e97041e27.wav",
+  "audio_url": "/audio/generated/03614bba-ae46-4848-b491-544e97041e27.wav",
+  "duration": 5.84,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T09:32:24.081025+00:00",
+  "status": "completed"
+}
