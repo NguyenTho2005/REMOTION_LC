@@ -184,6 +184,13 @@ async def add_track_to_timeline(request: AddToTimelineRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Lỗi khi thêm vào timeline: {str(e)}")
 
+@router.delete("/timeline/tracks/{track_id}")
+async def delete_timeline_track(track_id: str):
+    removed = asset_manager.remove_track_from_timeline(track_id)
+    if not removed:
+        raise HTTPException(status_code=404, detail="Không tìm thấy track trên timeline.")
+    return {"status": "removed", "track_id": track_id}
+
 @router.delete("/timeline/clear")
 async def clear_timeline_tracks():
     asset_manager.clear_timeline()

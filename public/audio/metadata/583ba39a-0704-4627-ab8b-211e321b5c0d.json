@@ -1,0 +1,12 @@
+{
+  "asset_id": "583ba39a-0704-4627-ab8b-211e321b5c0d",
+  "voice_id": "maichi",
+  "voice_name": "Mai Chi",
+  "text": "Bạn có thể tự chạy Supermemory cục bộ bằng Docker hoặc một lệnh đơn giản, kết nối với mô hình AI cục bộ để bảo mật dữ liệu tuyệt đối.",
+  "file_name": "583ba39a-0704-4627-ab8b-211e321b5c0d.wav",
+  "audio_url": "/audio/generated/583ba39a-0704-4627-ab8b-211e321b5c0d.wav",
+  "duration": 8.56,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T10:47:43.817508+00:00",
+  "status": "completed"
+}

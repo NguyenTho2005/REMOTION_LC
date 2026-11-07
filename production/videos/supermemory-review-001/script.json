@@ -1,0 +1,72 @@
+{
+  "projectId": "supermemory-review-001",
+  "title": "Supermemory — AI có thể nhớ mọi thứ?",
+  "voiceId": "maichi",
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "name": "Hook",
+      "headline": "AI CÓ THỂ NHỚ MỌI THỨ?",
+      "subtitle": "Supermemory: Bộ nhớ vĩnh cửu cho AI",
+      "text": "Bạn có bao giờ bực mình vì mỗi lần mở đoạn chat mới, AI lại quên sạch mọi thông tin về bạn?",
+      "wordCount": 17
+    },
+    {
+      "sceneId": "S02",
+      "name": "The Problem",
+      "headline": "NÚT THẮT CỦA TRÍ TUỆ NHÂN TẠO",
+      "subtitle": "Mất ngữ cảnh & Giới hạn Context Window",
+      "text": "Dù context window có lớn đến đâu, AI vẫn gặp hiện tượng mất ngữ cảnh thảm khốc khi chuyển đổi giữa các phiên làm việc.",
+      "wordCount": 21
+    },
+    {
+      "sceneId": "S03",
+      "name": "Introduction",
+      "headline": "SUPERMEMORY: 32.000+ STARS GITHUB",
+      "subtitle": "The Memory Engine For AI Era",
+      "text": "Supermemory là dự án mã nguồn mở với hơn ba mươi hai nghìn ngôi sao trên GitHub, đóng vai trò như bộ não ngoài của AI.",
+      "wordCount": 25
+    },
+    {
+      "sceneId": "S04",
+      "name": "Memory Engine",
+      "headline": "CƠ CHẾ TRÍCH XUẤT & HỒ SƠ ĐỘNG",
+      "subtitle": "User Profile tự động chỉ trong 50 mili giây",
+      "text": "Khác với RAG thông thường, hệ thống tự động bóc tách sự thật, xây dựng đồ thị quan hệ và cập nhật hồ sơ người dùng chỉ trong năm mươi mili giây.",
+      "wordCount": 28
+    },
+    {
+      "sceneId": "S05",
+      "name": "Hybrid Search",
+      "headline": "TÌM KIẾM LAI HYBRID SEARCH",
+      "subtitle": "Kết hợp Vector Embeddings + Từ Khóa BM25",
+      "text": "Chế độ tìm kiếm lai kết hợp cả vector ngữ nghĩa lẫn từ khóa chính xác, giúp AI truy xuất thông tin quá khứ mà không bỏ sót bất kỳ chi tiết nào.",
+      "wordCount": 25
+    },
+    {
+      "sceneId": "S06",
+      "name": "MCP and Connectors",
+      "headline": "GIAO THỨC MCP & ĐỒNG BỘ ĐA NGUỒN",
+      "subtitle": "Tích hợp Cursor, Claude Code, Google Drive",
+      "text": "Nhờ giao thức Model Context Protocol, Supermemory tích hợp trực tiếp vào Cursor và Claude Code, đồng bộ dữ liệu từ Notion, Drive và trình duyệt.",
+      "wordCount": 26
+    },
+    {
+      "sceneId": "S07",
+      "name": "Local Deployment",
+      "headline": "TỰ TRIỂN KHAI VỚI DOCKER",
+      "subtitle": "Bảo mật dữ liệu cá nhân 100%",
+      "text": "Bạn có thể tự chạy Supermemory cục bộ bằng Docker hoặc một lệnh đơn giản, kết nối với mô hình AI cục bộ để bảo mật dữ liệu tuyệt đối.",
+      "wordCount": 25
+    },
+    {
+      "sceneId": "S08",
+      "name": "Conclusion",
+      "headline": "TƯƠNG LAI CỦA TRỢ LÝ CÁ NHÂN",
+      "subtitle": "Biến AI thành cộng sự thực sự",
+      "text": "Supermemory chính là mảnh ghép còn thiếu để AI thực sự hiểu bạn. Bạn nghĩ sao về công nghệ này? Follow ngay để đón xem các công cụ đột phá tiếp theo!",
+      "wordCount": 27
+    }
+  ],
+  "totalWords": 194
+}

@@ -1,0 +1,34 @@
+{
+  "projectId": "supermemory-review-001",
+  "title": "Supermemory — AI có thể nhớ mọi thứ?",
+  "category": "github-repo-review",
+  "repository": "https://github.com/supermemoryai/supermemory",
+  "platform": "TikTok (9:16 vertical, 1080x1920, 30 FPS)",
+  "voice": {
+    "provider": "ZeroTTS",
+    "voiceId": "maichi",
+    "displayName": "Mai Chi",
+    "gender": "female",
+    "sampleRate": 48000
+  },
+  "assets": {
+    "audio": [
+      { "id": "S01", "path": "production/videos/supermemory-review-001/audio/S01.wav", "publicPath": "public/audio/supermemory/S01.wav", "duration": 5.52, "frames": 166 },
+      { "id": "S02", "path": "production/videos/supermemory-review-001/audio/S02.wav", "publicPath": "public/audio/supermemory/S02.wav", "duration": 6.48, "frames": 195 },
+      { "id": "S03", "path": "production/videos/supermemory-review-001/audio/S03.wav", "publicPath": "public/audio/supermemory/S03.wav", "duration": 7.84, "frames": 236 },
+      { "id": "S04", "path": "production/videos/supermemory-review-001/audio/S04.wav", "publicPath": "public/audio/supermemory/S04.wav", "duration": 7.04, "frames": 212 },
+      { "id": "S05", "path": "production/videos/supermemory-review-001/audio/S05.wav", "publicPath": "public/audio/supermemory/S05.wav", "duration": 8.08, "frames": 243 },
+      { "id": "S06", "path": "production/videos/supermemory-review-001/audio/S06.wav", "publicPath": "public/audio/supermemory/S06.wav", "duration": 8.08, "frames": 243 },
+      { "id": "S07", "path": "production/videos/supermemory-review-001/audio/S07.wav", "publicPath": "public/audio/supermemory/S07.wav", "duration": 8.56, "frames": 257 },
+      { "id": "S08", "path": "production/videos/supermemory-review-001/audio/S08.wav", "publicPath": "public/audio/supermemory/S08.wav", "duration": 8.56, "frames": 257 }
+    ],
+    "visuals": [
+      { "name": "Architecture Diagram", "file": "assets/architecture-diagram.svg", "type": "svg" }
+    ]
+  },
+  "timing": {
+    "totalDurationSeconds": 60.3,
+    "totalFrames": 1809,
+    "fps": 30
+  }
+}

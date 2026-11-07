@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { VoiceInfo, TTSAsset, TTSGenerateResponse } from "../types/tts";
+import { VoiceInfo, TTSAsset, TTSGenerateResponse, AudioTrackInfo } from "../types/tts";
 import { ttsApi } from "../services/tts-api";
 
 export const SAMPLE_SCRIPTS = [
@@ -18,6 +18,7 @@ export function useTTS() {
   const [generationError, setGenerationError] = useState<string | null>(null);
   const [lastGenerated, setLastGenerated] = useState<TTSGenerateResponse | null>(null);
   const [assets, setAssets] = useState<TTSAsset[]>([]);
+  const [timelineTracks, setTimelineTracks] = useState<AudioTrackInfo[]>([]);
   const [playingUrl, setPlayingUrl] = useState<string | null>(null);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -81,11 +82,21 @@ export function useTTS() {
     }
   }, []);
 
+  const refreshTimelineTracks = useCallback(async () => {
+    try {
+      const tracks = await ttsApi.getTimelineTracks();
+      setTimelineTracks(tracks);
+    } catch (e) {
+      console.warn("Failed to load timeline tracks:", e);
+    }
+  }, []);
+
   // Initial load
   useEffect(() => {
     refreshCatalog();
     refreshAssets();
-  }, [refreshCatalog, refreshAssets]);
+    refreshTimelineTracks();
+  }, [refreshCatalog, refreshAssets, refreshTimelineTracks]);
 
   const generateAudio = useCallback(async () => {
     if (!script.trim()) {
@@ -144,6 +155,32 @@ export function useTTS() {
     }
   }, [lastGenerated, refreshAssets]);
 
+  const removeTrackFromTimeline = useCallback(async (trackId: string) => {
+    try {
+      await ttsApi.removeTimelineTrack(trackId);
+      await refreshTimelineTracks();
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(new CustomEvent("remotion-tracks-updated"));
+      }
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : "Không thể xóa track.";
+      setGenerationError(msg);
+    }
+  }, [refreshTimelineTracks]);
+
+  const clearTimeline = useCallback(async () => {
+    try {
+      await ttsApi.clearTimeline();
+      await refreshTimelineTracks();
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(new CustomEvent("remotion-tracks-updated"));
+      }
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : "Không thể làm rỗng timeline.";
+      setGenerationError(msg);
+    }
+  }, [refreshTimelineTracks]);
+
   return {
     isBackendHealthy,
     voices,
@@ -155,13 +192,17 @@ export function useTTS() {
     generationError,
     lastGenerated,
     assets,
+    timelineTracks,
     playingUrl,
     playAudio,
     stopAudio,
     generateAudio,
     addToTimeline,
     deleteAsset,
+    removeTrackFromTimeline,
+    clearTimeline,
     refreshCatalog,
     refreshAssets,
+    refreshTimelineTracks,
   };
 }

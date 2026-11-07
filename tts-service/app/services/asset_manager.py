@@ -145,6 +145,16 @@ class AssetManager:
 
         return new_track
 
+    def remove_track_from_timeline(self, track_id: str) -> bool:
+        """Removes a single audio track from the timeline by track_id."""
+        tracks = self.get_timeline_tracks()
+        filtered = [t for t in tracks if t.id != track_id]
+        if len(filtered) == len(tracks):
+            return False
+        with open(self.tracks_file, "w", encoding="utf-8") as f:
+            json.dump([t.model_dump() for t in filtered], f, ensure_ascii=False, indent=2)
+        return True
+
     def clear_timeline(self) -> None:
         with open(self.tracks_file, "w", encoding="utf-8") as f:
             json.dump([], f, ensure_ascii=False, indent=2)

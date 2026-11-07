@@ -4,6 +4,7 @@ import { VoiceSelector } from "./VoiceSelector";
 import { ScriptEditor } from "./ScriptEditor";
 import { AudioPreview } from "./AudioPreview";
 import { GeneratedAudioList } from "./GeneratedAudioList";
+import { AIVideoStudioTab } from "./AIVideoStudioTab";
 
 interface VoiceStudioPanelProps {
   isDocked?: boolean;
@@ -14,7 +15,7 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
   isDocked = true,
   onClose,
 }) => {
-  const [activeTab, setActiveTab] = useState<"studio" | "library">("studio");
+  const [activeTab, setActiveTab] = useState<"ai-video" | "studio" | "library">("ai-video");
 
   const {
     isBackendHealthy,
@@ -161,16 +162,33 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
           display: "flex",
           borderBottom: "1px solid #232332",
           backgroundColor: "#161620",
-          padding: "0 12px",
+          padding: "0 8px",
         }}
       >
+        <button
+          type="button"
+          onClick={() => setActiveTab("ai-video")}
+          style={{
+            flex: 1,
+            padding: "10px 4px",
+            fontSize: "11px",
+            fontWeight: 700,
+            color: activeTab === "ai-video" ? "#38bdf8" : "#9ca3af",
+            borderBottom: activeTab === "ai-video" ? "2px solid #38bdf8" : "2px solid transparent",
+            backgroundColor: "transparent",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          ✨ AI Video
+        </button>
         <button
           type="button"
           onClick={() => setActiveTab("studio")}
           style={{
             flex: 1,
-            padding: "10px 8px",
-            fontSize: "12px",
+            padding: "10px 4px",
+            fontSize: "11px",
             fontWeight: 600,
             color: activeTab === "studio" ? "#818cf8" : "#9ca3af",
             borderBottom: activeTab === "studio" ? "2px solid #818cf8" : "2px solid transparent",
@@ -179,15 +197,15 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
             cursor: "pointer",
           }}
         >
-          🎙️ Tạo giọng nói
+          🎙️ TTS Studio
         </button>
         <button
           type="button"
           onClick={() => setActiveTab("library")}
           style={{
             flex: 1,
-            padding: "10px 8px",
-            fontSize: "12px",
+            padding: "10px 4px",
+            fontSize: "11px",
             fontWeight: 600,
             color: activeTab === "library" ? "#818cf8" : "#9ca3af",
             borderBottom: activeTab === "library" ? "2px solid #818cf8" : "2px solid transparent",
@@ -230,7 +248,9 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
           </div>
         )}
 
-        {activeTab === "studio" ? (
+        {activeTab === "ai-video" ? (
+          <AIVideoStudioTab onPlayAudio={playAudio} />
+        ) : activeTab === "studio" ? (
           <>
             {/* 1. Voice Picker */}
             <div>

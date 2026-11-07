@@ -1,0 +1,110 @@
+{
+  "id": "video-ai-agent-intro",
+  "title": "AI Agent Là Gì? Xu Hướng Lập Trình Tương Lai",
+  "category": "ai-explainer",
+  "aspectRatio": "9:16",
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "durationInFrames": 900,
+  "durationInSeconds": 30.0,
+  "voice": {
+    "voiceId": "quangminh",
+    "name": "Quang Minh",
+    "gender": "male",
+    "speed": 1.0,
+    "audioFile": "audio/tracks.json"
+  },
+  "script": {
+    "fullText": "AI Agent là gì mà ai cũng đang nhắc tới? Khác với chatbot thông thường chỉ trả lời câu hỏi, một AI Agent có khả năng tự lập kế hoạch, sử dụng công cụ như tìm kiếm web, chạy code, và hoàn thành tác vụ phức tạp một cách độc lập. Trong năm 2025, việc làm chủ kiến trúc AI Agent sẽ là vũ khí cạnh tranh lớn nhất của mọi kỹ sư phần mềm. Bạn đã sẵn sàng xây dựng Agent đầu tiên của mình chưa? Follow kênh để cập nhật ngay kiến thức AI thực chiến mỗi ngày!",
+    "wordCount": 89,
+    "sections": [
+      {
+        "id": "sec-1",
+        "type": "hook",
+        "text": "AI Agent là gì mà ai cũng đang nhắc tới?",
+        "startTime": 0.0,
+        "endTime": 4.0
+      },
+      {
+        "id": "sec-2",
+        "type": "context",
+        "text": "Khác với chatbot thông thường chỉ trả lời câu hỏi, một AI Agent có khả năng tự lập kế hoạch, sử dụng công cụ như tìm kiếm web, chạy code, và hoàn thành tác vụ phức tạp một cách độc lập.",
+        "startTime": 4.0,
+        "endTime": 17.0
+      },
+      {
+        "id": "sec-3",
+        "type": "analysis",
+        "text": "Trong năm 2025, việc làm chủ kiến trúc AI Agent sẽ là vũ khí cạnh tranh lớn nhất của mọi kỹ sư phần mềm.",
+        "startTime": 17.0,
+        "endTime": 24.0
+      },
+      {
+        "id": "sec-4",
+        "type": "cta",
+        "text": "Bạn đã sẵn sàng xây dựng Agent đầu tiên của mình chưa? Follow kênh để cập nhật ngay kiến thức AI thực chiến mỗi ngày!",
+        "startTime": 24.0,
+        "endTime": 30.0
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "template": "HookScene",
+      "startFrame": 0,
+      "durationInFrames": 120,
+      "props": {
+        "badgeText": "XU HƯỚNG CÔNG NGHỆ 2025",
+        "title": "AI Agent Là Gì?",
+        "subtitle": "Kỷ nguyên tiếp theo của Trí tuệ Nhân tạo",
+        "accentColor": "#38bdf8"
+      }
+    },
+    {
+      "id": "scene-2",
+      "template": "AIConceptScene",
+      "startFrame": 120,
+      "durationInFrames": 390,
+      "props": {
+        "conceptTitle": "Kiến Trúc AI Agent",
+        "pillars": [
+          { "title": "Perception", "description": "Quan sát ngữ cảnh & User Prompt", "icon": "brain" },
+          { "title": "Planning", "description": "Lập kế hoạch & chia nhỏ tác vụ", "icon": "list-tree" },
+          { "title": "Tools", "description": "Gọi Web Search, API, Database, Terminal", "icon": "wrench" },
+          { "title": "Execution", "description": "Tự thực thi và kiểm thử kết quả", "icon": "check-circle" }
+        ],
+        "accentColor": "#818cf8"
+      }
+    },
+    {
+      "id": "scene-3",
+      "template": "ArchitectureScene",
+      "startFrame": 510,
+      "durationInFrames": 210,
+      "props": {
+        "headline": "Kỹ Năng Sống Còn Cho Kỹ Sư Phần Mềm",
+        "keyPoints": [
+          "Chuyển từ viết code thủ công sang kiến trúc Agent",
+          "Tự động hóa toàn bộ quy trình DevOps & QA",
+          "Tăng tốc độ bàn giao sản phẩm lên gấp 5 lần"
+        ],
+        "highlightTag": "CAREER BOOST 2025"
+      }
+    },
+    {
+      "id": "scene-4",
+      "template": "OutroScene",
+      "startFrame": 720,
+      "durationInFrames": 180,
+      "props": {
+        "callToAction": "Follow ngay để nắm bắt AI thực chiến!",
+        "channelName": "Tech Pulse Vietnam",
+        "tags": ["#AIAgent", "#LapTrinh", "#CongNghe", "#AI2025"]
+      }
+    }
+  ]
+}

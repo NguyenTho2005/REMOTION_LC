@@ -1,0 +1,12 @@
+{
+  "asset_id": "f63b2cf9-0d6d-4af2-8a7b-ed707f4f5ea8",
+  "voice_id": "maichi",
+  "voice_name": "Mai Chi",
+  "text": "Khác với RAG thông thường, hệ thống tự động bóc tách sự thật, xây dựng đồ thị quan hệ và cập nhật hồ sơ người dùng chỉ trong năm mươi mili giây.",
+  "file_name": "f63b2cf9-0d6d-4af2-8a7b-ed707f4f5ea8.wav",
+  "audio_url": "/audio/generated/f63b2cf9-0d6d-4af2-8a7b-ed707f4f5ea8.wav",
+  "duration": 7.04,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T10:47:12.894875+00:00",
+  "status": "completed"
+}

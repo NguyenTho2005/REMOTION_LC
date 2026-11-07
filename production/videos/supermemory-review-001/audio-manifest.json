@@ -1,0 +1,79 @@
+{
+  "voiceId": "maichi",
+  "totalDuration": 60.160000000000004,
+  "totalFrames": 1809,
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "text": "Bạn có bao giờ bực mình vì mỗi lần mở đoạn chat mới, AI lại quên sạch mọi thông tin về bạn?",
+      "duration": 5.52,
+      "durationInFrames": 166,
+      "sampleRate": 48000,
+      "fileName": "S01.wav",
+      "publicSrc": "audio/supermemory/S01.wav"
+    },
+    {
+      "sceneId": "S02",
+      "text": "Dù context window có lớn đến đâu, AI vẫn gặp hiện tượng mất ngữ cảnh thảm khốc khi chuyển đổi giữa các phiên làm việc.",
+      "duration": 6.48,
+      "durationInFrames": 195,
+      "sampleRate": 48000,
+      "fileName": "S02.wav",
+      "publicSrc": "audio/supermemory/S02.wav"
+    },
+    {
+      "sceneId": "S03",
+      "text": "Supermemory là dự án mã nguồn mở với hơn ba mươi hai nghìn ngôi sao trên GitHub, đóng vai trò như bộ não ngoài của AI.",
+      "duration": 7.84,
+      "durationInFrames": 236,
+      "sampleRate": 48000,
+      "fileName": "S03.wav",
+      "publicSrc": "audio/supermemory/S03.wav"
+    },
+    {
+      "sceneId": "S04",
+      "text": "Khác với RAG thông thường, hệ thống tự động bóc tách sự thật, xây dựng đồ thị quan hệ và cập nhật hồ sơ người dùng chỉ trong năm mươi mili giây.",
+      "duration": 7.04,
+      "durationInFrames": 212,
+      "sampleRate": 48000,
+      "fileName": "S04.wav",
+      "publicSrc": "audio/supermemory/S04.wav"
+    },
+    {
+      "sceneId": "S05",
+      "text": "Chế độ tìm kiếm lai kết hợp cả vector ngữ nghĩa lẫn từ khóa chính xác, giúp AI truy xuất thông tin quá khứ mà không bỏ sót bất kỳ chi tiết nào.",
+      "duration": 8.08,
+      "durationInFrames": 243,
+      "sampleRate": 48000,
+      "fileName": "S05.wav",
+      "publicSrc": "audio/supermemory/S05.wav"
+    },
+    {
+      "sceneId": "S06",
+      "text": "Nhờ giao thức Model Context Protocol, Supermemory tích hợp trực tiếp vào Cursor và Claude Code, đồng bộ dữ liệu từ Notion, Drive và trình duyệt.",
+      "duration": 8.08,
+      "durationInFrames": 243,
+      "sampleRate": 48000,
+      "fileName": "S06.wav",
+      "publicSrc": "audio/supermemory/S06.wav"
+    },
+    {
+      "sceneId": "S07",
+      "text": "Bạn có thể tự chạy Supermemory cục bộ bằng Docker hoặc một lệnh đơn giản, kết nối với mô hình AI cục bộ để bảo mật dữ liệu tuyệt đối.",
+      "duration": 8.56,
+      "durationInFrames": 257,
+      "sampleRate": 48000,
+      "fileName": "S07.wav",
+      "publicSrc": "audio/supermemory/S07.wav"
+    },
+    {
+      "sceneId": "S08",
+      "text": "Supermemory chính là mảnh ghép còn thiếu để AI thực sự hiểu bạn. Bạn nghĩ sao về công nghệ này? Follow ngay để đón xem các công cụ đột phá tiếp theo!",
+      "duration": 8.56,
+      "durationInFrames": 257,
+      "sampleRate": 48000,
+      "fileName": "S08.wav",
+      "publicSrc": "audio/supermemory/S08.wav"
+    }
+  ]
+}

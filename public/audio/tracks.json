@@ -1,38 +1,14 @@
 [
   {
-    "id": "track-1-0176327e",
-    "asset_id": "0176327e-b5f4-4c87-adc8-db12e6be19fd",
-    "name": "Voice: Mai Chi",
-    "src": "audio/generated/0176327e-b5f4-4c87-adc8-db12e6be19fd.wav",
-    "voice_id": "maichi",
-    "voice_name": "Mai Chi",
-    "text": "Xin chào, chào mừng các bạn đến với video Remotion kết hợp ZeroTTS.",
+    "id": "track-1-e32e2101",
+    "asset_id": "e32e2101-c311-4524-828a-e97fb25c35ad",
+    "name": "Voice: Quang Minh",
+    "src": "audio/generated/e32e2101-c311-4524-828a-e97fb25c35ad.wav",
+    "voice_id": "quangminh",
+    "voice_name": "Quang Minh",
+    "text": "AI Agent là gì mà giới công nghệ lại nhắc tới nhiều đến vậy? Khác với chatbot thông thường chỉ trò chuyện qua lại, AI Agent sở hữu khả năng tự lập kế hoạch, tự gọi công cụ và giải quyết các bài toán phức tạp một cách độc lập từ đầu đến cuối. Trong kỷ nguyên mới, đây chính là kỹ năng quan trọng giúp bạn bứt phá năng suất lập trình và tự động hóa công việc thường nhật. Bạn đã sẵn sàng xây dựng hệ thống thông minh của riêng mình chưa? Hãy bấm follow để đón xem các hướng dẫn thực chiến tiếp theo nhé!",
     "start_frame": 0,
-    "duration_in_frames": 139,
-    "volume": 1.0
-  },
-  {
-    "id": "track-2-9a25e6d2",
-    "asset_id": "9a25e6d2-6564-4c11-b9f2-df91c797bfb5",
-    "name": "Voice: Gia Huy",
-    "src": "audio/generated/9a25e6d2-6564-4c11-b9f2-df91c797bfb5.wav",
-    "voice_id": "giahuy",
-    "voice_name": "Gia Huy",
-    "text": "Xin chào, tôi là Gia Huy, đây là giọng đọc tiếng Việt mẫu từ ZeroTTS.",
-    "start_frame": 145,
-    "duration_in_frames": 137,
-    "volume": 1.0
-  },
-  {
-    "id": "track-3-8a9a3a65",
-    "asset_id": "8a9a3a65-9a8b-4fc6-9618-58a3667e5633",
-    "name": "Voice: Kim Oanh",
-    "src": "audio/generated/8a9a3a65-9a8b-4fc6-9618-58a3667e5633.wav",
-    "voice_id": "kimoanh",
-    "voice_name": "Kim Oanh",
-    "text": "Kiểm tra API tạo giọng nói trực tiếp.",
-    "start_frame": 288,
-    "duration_in_frames": 72,
+    "duration_in_frames": 670,
     "volume": 1.0
   }
 ]

@@ -11,6 +11,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true
   },
   "exclude": ["remotion.config.ts"]

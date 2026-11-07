@@ -1,11 +1,11 @@
-import {
+import type {
   HealthResponse,
   VoiceCatalogResponse,
   TTSGenerateRequest,
   TTSGenerateResponse,
   AssetListResponse,
   AudioTrackInfo,
-} from "../types/tts";
+} from "../types/tts.ts";
 
 const BASE_URL =
   process.env.REMOTION_TTS_API_URL || "http://127.0.0.1:8000/api/tts";
@@ -95,6 +95,16 @@ class TTSApiClient {
       throw new Error(err.detail || `HTTP ${res.status}`);
     }
     return res.json();
+  }
+
+  async removeTimelineTrack(trackId: string): Promise<void> {
+    const res = await fetch(`${this.baseUrl}/timeline/tracks/${encodeURIComponent(trackId)}`, {
+      method: "DELETE",
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ detail: "Failed to remove track" }));
+      throw new Error(err.detail || `HTTP ${res.status}`);
+    }
   }
 
   async clearTimeline(): Promise<void> {

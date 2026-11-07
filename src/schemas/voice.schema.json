@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VoiceConfiguration",
+  "description": "Schema for ZeroTTS voice configuration and synthesis request/response",
+  "type": "object",
+  "required": ["voiceId", "name", "gender"],
+  "properties": {
+    "voiceId": {
+      "type": "string",
+      "enum": ["maichi", "baotrang", "kimoanh", "hamy", "giahuy", "huuduc", "quangminh", "tiendat"]
+    },
+    "name": { "type": "string" },
+    "gender": { "type": "string", "enum": ["female", "male"] },
+    "description": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "sampleRate": { "type": "integer", "default": 48000 },
+    "speed": { "type": "number", "default": 1.0, "minimum": 0.5, "maximum": 2.0 }
+  }
+}

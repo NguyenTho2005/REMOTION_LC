@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VideoProject",
+  "description": "Definition schema for an automated tech content video project",
+  "type": "object",
+  "required": ["id", "title", "category", "aspectRatio", "resolution", "fps", "durationInFrames", "voice", "script", "scenes"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the video project"
+    },
+    "title": {
+      "type": "string",
+      "description": "Headline/Title of the video in Vietnamese"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "tech-news",
+        "ai-news",
+        "ai-model-review",
+        "ai-tool-review",
+        "github-repo-review",
+        "ai-explainer"
+      ]
+    },
+    "aspectRatio": {
+      "type": "string",
+      "enum": ["9:16", "16:9", "1:1"],
+      "default": "9:16"
+    },
+    "resolution": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": { "type": "integer", "default": 1080 },
+        "height": { "type": "integer", "default": 1920 }
+      }
+    },
+    "fps": {
+      "type": "integer",
+      "default": 30
+    },
+    "durationInFrames": {
+      "type": "integer",
+      "minimum": 30
+    },
+    "durationInSeconds": {
+      "type": "number",
+      "minimum": 1.0
+    },
+    "voice": {
+      "type": "object",
+      "required": ["voiceId", "name", "gender"],
+      "properties": {
+        "voiceId": {
+          "type": "string",
+          "enum": ["maichi", "baotrang", "kimoanh", "hamy", "giahuy", "huuduc", "quangminh", "tiendat"]
+        },
+        "name": { "type": "string" },
+        "gender": { "type": "string", "enum": ["female", "male"] },
+        "speed": { "type": "number", "default": 1.0 },
+        "audioFile": { "type": "string" }
+      }
+    },
+    "script": {
+      "type": "object",
+      "required": ["fullText", "wordCount", "sections"],
+      "properties": {
+        "fullText": { "type": "string" },
+        "wordCount": { "type": "integer" },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "type", "text", "startTime", "endTime"],
+            "properties": {
+              "id": { "type": "string" },
+              "type": { "type": "string", "enum": ["hook", "context", "main", "analysis", "conclusion", "cta"] },
+              "text": { "type": "string" },
+              "startTime": { "type": "number" },
+              "endTime": { "type": "number" }
+            }
+          }
+        }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "items": { "$ref": "scene.schema.json" }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "sourceUrl": { "type": "string" },
+        "author": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

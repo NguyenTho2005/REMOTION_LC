@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SceneDefinition",
+  "description": "Definition schema for an individual Remotion visual scene",
+  "type": "object",
+  "required": ["id", "template", "startFrame", "durationInFrames", "props"],
+  "properties": {
+    "id": { "type": "string" },
+    "template": {
+      "type": "string",
+      "enum": [
+        "HookScene",
+        "NewsIntro",
+        "BreakingNews",
+        "NewsTimeline",
+        "AIConceptScene",
+        "ArchitectureScene",
+        "FeatureHighlight",
+        "RepositoryCard",
+        "CodeShowcase",
+        "TerminalAnimation",
+        "OutroScene"
+      ]
+    },
+    "startFrame": { "type": "integer", "minimum": 0 },
+    "durationInFrames": { "type": "integer", "minimum": 1 },
+    "transition": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["fade", "slide-left", "zoom-in", "glitch", "none"] },
+        "durationInFrames": { "type": "integer", "default": 10 }
+      }
+    },
+    "props": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

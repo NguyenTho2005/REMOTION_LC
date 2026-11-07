@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PipelineExecutionState",
+  "description": "Schema for AI Video Production Pipeline state and stage telemetry",
+  "type": "object",
+  "required": ["videoId", "status", "currentStage", "progress", "stages", "createdAt", "updatedAt"],
+  "properties": {
+    "videoId": { "type": "string" },
+    "prompt": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["idle", "running", "paused", "completed", "failed"]
+    },
+    "currentStage": {
+      "type": "string",
+      "enum": [
+        "init",
+        "research",
+        "script",
+        "storyboard",
+        "voice",
+        "visuals",
+        "captions",
+        "composition",
+        "render",
+        "qa",
+        "complete"
+      ]
+    },
+    "progress": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "status", "startedAt"],
+        "properties": {
+          "name": { "type": "string" },
+          "status": { "type": "string", "enum": ["pending", "in-progress", "completed", "failed", "skipped"] },
+          "startedAt": { "type": "string" },
+          "completedAt": { "type": "string" },
+          "error": { "type": "string" },
+          "retryCount": { "type": "integer", "default": 0 }
+        }
+      }
+    },
+    "error": { "type": "string" },
+    "createdAt": { "type": "string" },
+    "updatedAt": { "type": "string" }
+  }
+}

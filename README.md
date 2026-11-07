@@ -1,41 +1,51 @@
-# REMOTION-LC — ZeroTTS Voice Studio
+# REMOTION-LC — AI Video Production System & ZeroTTS Studio
 
-Tích hợp AI Voice Studio tiếng Việt sử dụng mô hình **ZeroTTS** trực tiếp vào không gian làm việc của **REMOTION-LC**.
-
-Người dùng có thể chọn 8 giọng đọc tiếng Việt chất lượng cao, nhập kịch bản, nghe thử preview, tạo file âm thanh và đưa trực tiếp vào Timeline Remotion để render video.
+Hệ thống sản xuất video công nghệ tự động cho TikTok sử dụng kiến trúc **Single Orchestrator Agent + Modular Engines + Tool-Based Execution**, tích hợp giọng đọc AI tiếng Việt **ZeroTTS** và bộ dựng video lập trình **Remotion**.
 
 ---
 
-## 🎙️ Danh sách 8 giọng ZeroTTS chính thức
+## 🌟 Tính Năng Nổi Bật
 
-| Voice ID | Tên hiển thị | Giới tính | Đặc điểm / Tags |
-|---|---|---|---|
-| `maichi` | Mai Chi | Nữ | Trẻ, kể chuyện, nhẹ nhàng, thân thiện |
-| `baotrang` | Bảo Trang | Nữ | Trưởng thành, tin tức, rõ ràng, trung tính |
-| `kimoanh` | Kim Oanh | Nữ | Trung niên, kể chuyện, ấm áp, truyền cảm |
-| `hamy` | Hà My | Nữ | Trẻ, hoạt hình, cao, biểu cảm |
-| `giahuy` | Gia Huy | Nam | Trẻ, kể chuyện, trầm ấm, tâm tình |
-| `huuduc` | Hữu Đức | Nam | Lớn tuổi, kể chuyện, trầm, điềm đạm |
-| `quangminh` | Quang Minh | Nam | Trẻ, tin tức, rõ ràng, dứt khoát |
-| `tiendat` | Tiến Đạt | Nam | Trẻ, bình luận, sôi nổi, năng lượng cao |
+- **AI Video Orchestrator:** Chỉ cần một prompt tiếng Việt tự nhiên (VD: *"Tạo video 30s giải thích AI Agent là gì"*), hệ thống tự động nghiên cứu, viết kịch bản 6 phần chuẩn SEO, chia storyboard, sinh giọng đọc ZeroTTS, dựng composition và render video MP4 hoàn chỉnh.
+- **Quy Trình 10 Giai Đoạn (10-Stage Pipeline):** `init` ➔ `research` ➔ `script` ➔ `storyboard` ➔ `voice` ➔ `visuals` ➔ `captions` ➔ `composition` ➔ `render` ➔ `qa`.
+- **Định Dạng Chuẩn TikTok 9:16:** Độ phân giải 1080 × 1920, 30 FPS, phong cách Dark Tech Editorial, tuân thủ vùng an toàn (Safe Zones: Top 160px, Bottom 260px).
+- **Bộ Templates Đa Dạng:**
+  - `HookScene` & `OutroScene`: Mở màn giật tít và kết thúc kêu gọi hành động (CTA).
+  - `BreakingNews` & `NewsTimeline`: Tin tức công nghệ nóng hổi.
+  - `AIConceptScene`, `ArchitectureScene` & `FeatureHighlight`: Giải thích công nghệ và mô hình AI.
+  - `RepositoryCard`, `CodeShowcase` & `TerminalAnimation`: Review kho mã nguồn GitHub mã nguồn mở.
+- **ZeroTTS Voice Studio:** Hỗ trợ đầy đủ 8 giọng đọc tiếng Việt 48kHz chất lượng cao, tự động chuẩn hóa văn bản và gắn track trực tiếp vào timeline Remotion.
+- **Quality Assurance Engine:** Tự động kiểm tra chất lượng video đầu ra qua `ffprobe` (khớp thời lượng, tỷ lệ 9:16, 30 FPS, âm thanh stereo, dung lượng file).
 
 ---
 
-## 🚀 Hướng dẫn cài đặt & Khởi động
+## 🎙️ Danh Sách 8 Giọng ZeroTTS Chính Thức
 
-### 1. Cài đặt Node dependencies (Frontend / Remotion)
+| Voice ID | Tên hiển thị | Giới tính | Vùng miền / Phong cách | Đề xuất thể loại video |
+|---|---|---|---|---|
+| `quangminh` | Quang Minh | Nam | Miền Bắc, chuẩn phát thanh, sắc nét | AI Explainer, AI Model Review |
+| `tiendat` | Tiến Đạt | Nam | Miền Bắc, trầm ấm, dứt khoát | GitHub Repository Review |
+| `baotrang` | Bảo Trang | Nữ | Miền Bắc, chuyên nghiệp, tin tức | Breaking Tech News |
+| `giahuy` | Gia Huy | Nam | Miền Nam, hiện đại, sôi nổi | AI Tool Review |
+| `maichi` | Mai Chi | Nữ | Miền Bắc, nhẹ nhàng, truyền cảm | Phóng sự công nghệ |
+| `hamy` | Hà My | Nữ | Miền Nam, trẻ trung, năng động | Short form content |
+| `kimoanh` | Kim Oanh | Nữ | Miền Bắc, ấm áp, thân thiện | Tutorial & Onboarding |
+| `huuduc` | Hữu Đức | Nam | Miền Trung, đĩnh đạc, tin cậy | Tech Documentary |
+
+---
+
+## 🚀 Hướng Dẫn Cài Đặt & Sử Dụng
+
+### 1. Cài đặt Node Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Thiết lập môi trường Python & Cài đặt ZeroTTS (Backend)
+### 2. Thiết lập môi trường Python & ZeroTTS
 
 ```bash
-# Tạo virtual environment riêng cho tts-service
 python3 -m venv tts-service/.venv
-
-# Kích hoạt virtual environment và cài đặt dependencies
 source tts-service/.venv/bin/activate
 pip install -r tts-service/requirements.txt
 ```
@@ -43,121 +53,59 @@ pip install -r tts-service/requirements.txt
 ### 3. Khởi động ZeroTTS Service
 
 ```bash
-# Chạy trực tiếp qua npm script:
 npm run tts
-
-# Hoặc qua lệnh Python:
-PYTHONPATH=tts-service tts-service/.venv/bin/python tts-service/app/main.py
 ```
-> Backend sẽ chạy tại `http://127.0.0.1:8000`. Endpoint API: `http://127.0.0.1:8000/api/tts/health`.
+> Dịch vụ backend chạy tại `http://127.0.0.1:8000`. Kiểm tra trạng thái: `http://127.0.0.1:8000/api/tts/health`.
 
-### 4. Khởi động REMOTION-LC Studio
+### 4. Khởi động Remotion Studio
 
-Mở một terminal mới và chạy:
-
+Mở terminal mới và chạy:
 ```bash
 npm run dev
 ```
-> Trình duyệt sẽ mở giao diện Remotion Studio tại `http://localhost:3000`.
-> Nhấn nút **🎙️ Mở Voice Studio** ở góc trên bên phải để mở bảng điều khiển Voice Studio.
+> Truy cập `http://localhost:3000`. Chọn composition **TikTokVideo** (dọc 9:16) hoặc **MyComp** (ngang 16:9). Nhấn nút `🎙️ Mở Voice Studio` để sử dụng tab **✨ AI Video** hoặc **🎙️ TTS Studio**.
 
 ---
 
-## 🎬 Quy trình sử dụng (User Workflow)
+## ⚡ Các Lệnh Thực Thi (CLI Commands)
 
-1. **Mở Studio:** Mở `http://localhost:3000`.
-2. **Mở Voice Studio:** Nhấn vào nút `🎙️ Mở Voice Studio` nổi ở góc trên bên phải.
-3. **Soạn kịch bản:** Nhập hoặc dán đoạn văn bản tiếng Việt vào ô kịch bản (có đếm từ và ký tự).
-4. **Chọn giọng đọc:** Lọc theo giới tính (Nữ/Nam) hoặc tìm kiếm theo tên/tags trong 8 giọng ZeroTTS.
-5. **Nghe thử:** Nhấn nút `▶ Nghe` trên card giọng nói để nghe audio mẫu của giọng đó.
-6. **Tạo âm thanh:** Nhấn `🎙️ Tạo âm thanh với [Tên giọng]`. Hệ thống sẽ chuẩn hóa tiếng Việt, chia câu tự động (chunking) và sinh file WAV 48kHz.
-7. **Nghe kết quả:** Nghe lại âm thanh vừa tạo trực tiếp trên trình phát.
-8. **Đưa vào Timeline:** Nhấn `➕ Thêm vào Timeline`. Track âm thanh sẽ được tự động ghi vào `public/audio/tracks.json` và xuất hiện dưới timeline Remotion với tên `Voice: [Tên giọng]`.
-9. **Xem trước video:** Nhấn Play trên trình phát trung tâm của Remotion Studio để nghe âm thanh phát đồng bộ cùng hoạt ảnh sóng âm (waveform).
-10. **Render video:** Xuất video cuối cùng có âm thanh voice-over hoàn chỉnh:
-    ```bash
-    npm run render
-    # hoặc
-    npx remotion render MyComp out/output.mp4
-    ```
+| Lệnh | Mô tả |
+| :--- | :--- |
+| `npm test` | Chạy bộ kiểm thử tự động TypeScript cho TaskPlanner, Engines, StateManager, ToolRegistry |
+| `npm run test:tts` | Chạy 8 bài kiểm thử pytest cho backend FastAPI & mô hình ZeroTTS |
+| `npm run lint` | Kiểm tra toàn bộ mã nguồn với ESLint và TypeScript compiler strict mode |
+| `npm run build` | Bundle dự án với Remotion bundler |
+| `npm run render:tiktok` | Render video dọc 9:16 `TikTokVideo` (1080x1920) xuất ra `out/tiktok-video.mp4` |
+| `npm run render` | Render video ngang `MyComp` (1280x720) xuất ra `out/output.mp4` |
 
 ---
 
-## 🧪 Kiểm thử (Testing)
+## 🧪 Chạy Thử E2E AI Video Orchestrator
 
-### Chạy kiểm thử Backend TTS (FastAPI & ZeroTTS)
-Kiểm thử 8 endpoints: health check, catalog 8 giọng, preview WAV, chuẩn hóa tiếng Việt, chunking câu dài, lưu trữ asset và quản lý timeline:
+Tạo video hoàn chỉnh tự động từ dòng lệnh:
 
 ```bash
-npm run test:tts
+node --experimental-strip-types scratch/run_e2e_video.ts
 ```
 
-### Chạy Typecheck & Linter Frontend
-Kiểm tra TypeScript strict mode và ESLint flat config:
-
-```bash
-npm run lint
-```
-
-### Kiểm tra Render Video với âm thanh
-Render thử composition kiểm tra luồng video `h264` và audio `aac` (48kHz):
-
-```bash
-npm run render
-ffprobe -v error -show_entries stream=codec_type,codec_name,duration,sample_rate out/output.mp4
-```
+Pipeline sẽ thực thi:
+1. Nhận prompt: *"Giải thích AI Agent là gì và vì sao đây là xu hướng lập trình 2025 trong 30s"*
+2. Lập kế hoạch và nghiên cứu kiến trúc 4 trụ cột của AI Agent.
+3. Soạn kịch bản 6 phần chuẩn tiếng Việt (~100 từ).
+4. Dựng Storyboard gồm 4 phân cảnh (`HookScene`, `AIConceptScene`, `ArchitectureScene`, `OutroScene`).
+5. Tạo giọng đọc AI thực tế với ZeroTTS voice `quangminh`.
+6. Dựng composition Remotion `TikTokVideo` (750 frames, 25.0s, 30 FPS).
+7. Render ra file MP4 chất lượng cao tại `out/ai_agent_tiktok.mp4`.
+8. Kiểm tra chất lượng tự động qua `QualityEngine` (100% Scorecard).
 
 ---
 
-## 🏗️ Kiến trúc kỹ thuật
+## 📐 Kiến Trúc Hệ Thống (Architecture)
 
-```text
-REMOTION-LC/
-├── public/
-│   └── audio/
-│       ├── generated/       # Thư mục chứa các file WAV được tạo bởi ZeroTTS
-│       ├── metadata/        # Thư mục lưu JSON metadata từng file
-│       └── tracks.json      # File manifest timeline audio tracks
-├── src/
-│   ├── components/
-│   │   └── voice-studio/
-│   │       ├── VoiceStudioPanel.tsx    # Giao diện chính Voice Studio (Tabs, Health, Alert)
-│   │       ├── VoiceStudioOverlay.tsx  # Floating overlay gắn vào Remotion Studio DOM
-│   │       ├── VoiceSelector.tsx       # Tìm kiếm & danh sách 8 voice cards
-│   │       ├── VoiceCard.tsx           # Thẻ hiển thị giọng, tags, nút preview
-│   │       ├── ScriptEditor.tsx        # Textarea kịch bản, đếm từ, mẫu văn bản
-│   │       ├── AudioPreview.tsx        # Trình phát kết quả vừa tạo + nút Add to Timeline
-│   │       └── GeneratedAudioList.tsx  # Danh sách lịch sử audio đã sinh
-│   ├── hooks/
-│   │   └── useTTS.ts                   # Hook quản lý state, API client & audio player
-│   ├── services/
-│   │   └── tts-api.ts                  # Client gọi FastAPI endpoints
-│   ├── types/
-│   │   └── tts.ts                      # TypeScript interfaces
-│   ├── Composition.tsx                 # Remotion Composition tích hợp Sequence Audio
-│   └── Root.tsx                        # Remotion Root gắn Composition + VoiceStudioOverlay
-├── tts-service/
-│   ├── app/
-│   │   ├── main.py                     # FastAPI entry point, CORS, static files
-│   │   ├── core/config.py              # Cấu hình đường dẫn asset, model, concurrency
-│   │   ├── api/routes.py               # REST API endpoints (/api/tts/*)
-│   │   ├── schemas/tts.py              # Pydantic schemas
-│   │   └── services/
-│   │       ├── zerotts_engine.py       # ZeroTTS Adapter (singleton model, normalization, chunking)
-│   │       └── asset_manager.py        # Quản lý audio storage & timeline manifest
-│   ├── requirements.txt                # Pinned dependencies
-│   └── tests/
-│       └── test_api.py                 # Pytest test suite cho TTS engine & API
-└── remotion.config.ts
-```
-
----
-
-## 🛠️ Xử lý sự cố (Troubleshooting)
-
-- **Lỗi `⚠️ ZeroTTS Backend chưa chạy` trên giao diện:**
-  Mở terminal và khởi động backend: `npm run tts` (hoặc kiểm tra cổng 8000 không bị chiếm dụng).
-- **Model ZeroTTS tải về ở đâu?**
-  Weights và voice packs được tải tự động qua HuggingFace Hub và lưu tại `~/.cache/huggingface/hub/models--zeroweight-ai--ZeroTTS`. Lần chạy tiếp theo sẽ nạp trực tiếp từ ổ cứng mà không cần tải lại.
-- **Render lại có gọi lại ZeroTTS không?**
-  Không. Khi render video bằng Remotion CLI, hệ thống sử dụng các file audio đã lưu trong `public/audio/generated/` thông qua `staticFile()`. Quá trình render video hoàn toàn độc lập và không phụ thuộc vào trạng thái chạy của Python backend.
+Chi tiết thiết kế và tài liệu kỹ thuật có sẵn trong thư mục `docs/`:
+- [`docs/architecture/system-overview.md`](docs/architecture/system-overview.md): Tổng quan kiến trúc hệ thống và luồng dữ liệu.
+- [`docs/architecture/pipeline.md`](docs/architecture/pipeline.md): Đặc tả 10 giai đoạn của PipelineRunner.
+- [`docs/architecture/engine-design.md`](docs/architecture/engine-design.md): Thiết kế các Modular Engines.
+- [`docs/api/orchestrator-api.md`](docs/api/orchestrator-api.md): API tham chiếu của VideoOrchestrator và ToolRegistry.
+- [`docs/development/extending-engines.md`](docs/development/extending-engines.md): Hướng dẫn mở rộng template và đăng ký tool mới.
+- [`AGENTS.md`](AGENTS.md): Bộ quy tắc kỹ thuật và tiêu chuẩn code cho lập trình viên và AI agents.

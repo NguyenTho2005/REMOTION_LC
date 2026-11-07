@@ -1,0 +1,12 @@
+{
+  "asset_id": "46c32cf7-faa9-4723-8527-20028529c1c3",
+  "voice_id": "maichi",
+  "voice_name": "Mai Chi",
+  "text": "Dù context window có lớn đến đâu, AI vẫn gặp hiện tượng mất ngữ cảnh thảm khốc khi chuyển đổi giữa các phiên làm việc.",
+  "file_name": "46c32cf7-faa9-4723-8527-20028529c1c3.wav",
+  "audio_url": "/audio/generated/46c32cf7-faa9-4723-8527-20028529c1c3.wav",
+  "duration": 6.48,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T10:46:54.642263+00:00",
+  "status": "completed"
+}

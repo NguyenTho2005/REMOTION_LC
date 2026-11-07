@@ -1,0 +1,12 @@
+{
+  "asset_id": "3f5e089a-d08d-41a5-9e9c-5cb3d02323e6",
+  "voice_id": "maichi",
+  "voice_name": "Mai Chi",
+  "text": "Bạn có bao giờ bực mình vì mỗi lần mở đoạn chat mới, AI lại quên sạch mọi thông tin về bạn?",
+  "file_name": "3f5e089a-d08d-41a5-9e9c-5cb3d02323e6.wav",
+  "audio_url": "/audio/generated/3f5e089a-d08d-41a5-9e9c-5cb3d02323e6.wav",
+  "duration": 5.52,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T10:46:46.229841+00:00",
+  "status": "completed"
+}

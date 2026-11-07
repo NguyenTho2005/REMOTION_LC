@@ -1,0 +1,36 @@
+{
+  "projectId": "supermemory-review-001",
+  "repository": {
+    "name": "supermemory",
+    "owner": "supermemoryai",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "stars": "32,000+",
+    "license": "MIT",
+    "language": "TypeScript / Python / JavaScript",
+    "stack": {
+      "framework": "Next.js, React, TailwindCSS, ShadcnUI",
+      "storage": "Cloudflare D1, Cloudflare KV, Drizzle ORM",
+      "ai": "Model Context Protocol (MCP), Vercel AI SDK, OpenAI, Anthropic"
+    }
+  },
+  "verifiedFacts": {
+    "problemSolved": "AI context windows are ephemeral and isolated per conversation session. When users start a new chat, the model suffers from catastrophic context loss. Storing notes and bookmarks across disconnected tools causes severe knowledge fragmentation.",
+    "memorySystem": "Operates as a high-speed context and memory layer scoped per namespace (/ns/{namespace}). It ingests chat logs, documents, web URLs and markdown, extracting structured facts, entity relationships, and updating persistent state.",
+    "differFromTraditionalRAG": "Traditional RAG performs dumb chunking and raw vector similarity (cosine) matching on documents without understanding temporal changes or user persona. Supermemory separates 'memory' tasks (full graph & profile extraction) from 'superrag' tasks (scalable document chunking), preserving entity links and chronologically synthesized user context.",
+    "userProfiles": "Maintains an always-on synthesized user profile (/profile endpoint) returned in ~50ms. Profiles dynamically split into stable long-term facts (preferences, background, skills) and recent short-term activity without bloating prompt token windows.",
+    "mcpIntegration": "Supports the Model Context Protocol via 'supermemoryai/supermemory-mcp'. AI coding agents like Claude Code, Cursor, and Codex can directly query persistent memory tools (recall_memory, save_memory) natively during development workflows.",
+    "connectors": "Cloud platform offers managed background connectors for Google Drive, Notion, Gmail, OneDrive, and GitHub webhooks, plus a Chrome extension for browser bookmarks.",
+    "localDeployment": "Fully self-hostable via binary (`curl -fsSL https://supermemory.ai/install | bash` or `npx supermemory local`) and official Docker Compose (`compose.yaml`). Supports local embeddings via Ollama and embedded local database.",
+    "developerUseCases": "Persistent memory for autonomous AI agents, personal second-brain assistants, cross-IDE shared coding context between Cursor and Claude Code."
+  },
+  "sourceUrls": [
+    "https://github.com/supermemoryai/supermemory",
+    "https://supermemory.ai/docs",
+    "https://github.com/supermemoryai/supermemory-mcp",
+    "https://supermemory.ai/docs/self-hosting/docker"
+  ],
+  "benchmarksClaimed": [
+    "Evaluated on LongMemEval, LoCoMo, and ConvoMem benchmarks",
+    "~50ms profile retrieval latency"
+  ]
+}

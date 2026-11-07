@@ -1,0 +1,256 @@
+{
+  "videoId": "video-1794047654608-gwiq3",
+  "prompt": "Giải thích AI Agent là gì và vì sao đây là xu hướng lập trình 2025 trong 30s",
+  "status": "completed",
+  "currentStage": "complete",
+  "progress": 100,
+  "stages": [
+    {
+      "name": "init",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:14.609Z",
+      "completedAt": "2026-11-07T10:34:14.610Z"
+    },
+    {
+      "name": "research",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:14.610Z",
+      "completedAt": "2026-11-07T10:34:14.611Z"
+    },
+    {
+      "name": "script",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:14.611Z",
+      "completedAt": "2026-11-07T10:34:14.612Z"
+    },
+    {
+      "name": "storyboard",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:14.612Z",
+      "completedAt": "2026-11-07T10:34:14.612Z"
+    },
+    {
+      "name": "voice",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:14.612Z",
+      "completedAt": "2026-11-07T10:34:43.071Z"
+    },
+    {
+      "name": "visuals",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:43.071Z",
+      "completedAt": "2026-11-07T10:34:43.073Z"
+    },
+    {
+      "name": "captions",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:43.073Z",
+      "completedAt": "2026-11-07T10:34:43.073Z"
+    },
+    {
+      "name": "composition",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:43.074Z",
+      "completedAt": "2026-11-07T10:34:43.075Z"
+    },
+    {
+      "name": "render",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:34:43.075Z",
+      "completedAt": "2026-11-07T10:35:13.896Z"
+    },
+    {
+      "name": "qa",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:35:13.896Z",
+      "completedAt": "2026-11-07T10:35:13.993Z"
+    },
+    {
+      "name": "complete",
+      "status": "completed",
+      "retryCount": 0,
+      "startedAt": "2026-11-07T10:35:13.993Z",
+      "completedAt": "2026-11-07T10:35:13.993Z"
+    }
+  ],
+  "createdAt": "2026-11-07T10:34:14.608Z",
+  "updatedAt": "2026-11-07T10:35:13.993Z",
+  "videoProject": {
+    "id": "video-1794047654608-gwiq3",
+    "title": "AI Agent Là Gì? Giải Thích Cực Dễ Hiểu Trong 30 Giây",
+    "category": "ai-explainer",
+    "aspectRatio": "9:16",
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "fps": 30,
+    "durationInFrames": 750,
+    "durationInSeconds": 25,
+    "voice": {
+      "voiceId": "quangminh",
+      "name": "Quang Minh",
+      "gender": "male",
+      "description": "Giọng nam miền Bắc chuẩn phát thanh, sắc bén, lý tưởng cho phân tích chuyên sâu.",
+      "tags": [
+        "Miền Bắc",
+        "Chuẩn phát thanh",
+        "Chuyên gia"
+      ],
+      "sampleRate": 48000,
+      "speed": 1,
+      "audioFile": "e32e2101-c311-4524-828a-e97fb25c35ad.wav"
+    },
+    "script": {
+      "fullText": "AI Agent là gì mà giới công nghệ lại nhắc tới nhiều đến vậy? Khác với chatbot thông thường chỉ trò chuyện qua lại, AI Agent sở hữu khả năng tự lập kế hoạch, tự gọi công cụ và giải quyết các bài toán phức tạp một cách độc lập từ đầu đến cuối. Trong kỷ nguyên mới, đây chính là kỹ năng quan trọng giúp bạn bứt phá năng suất lập trình và tự động hóa công việc thường nhật. Bạn đã sẵn sàng xây dựng hệ thống thông minh của riêng mình chưa? Hãy bấm follow để đón xem các hướng dẫn thực chiến tiếp theo nhé!",
+      "wordCount": 109,
+      "sections": [
+        {
+          "id": "sec-hook",
+          "type": "hook",
+          "text": "AI Agent là gì mà giới công nghệ lại nhắc tới nhiều đến vậy?",
+          "startTime": 0,
+          "endTime": 4
+        },
+        {
+          "id": "sec-context",
+          "type": "context",
+          "text": "Khác với chatbot thông thường chỉ trò chuyện qua lại, AI Agent sở hữu khả năng tự lập kế hoạch, tự gọi công cụ và giải quyết các bài toán phức tạp một cách độc lập từ đầu đến cuối.",
+          "startTime": 4,
+          "endTime": 14
+        },
+        {
+          "id": "sec-analysis",
+          "type": "analysis",
+          "text": "Trong kỷ nguyên mới, đây chính là kỹ năng quan trọng giúp bạn bứt phá năng suất lập trình và tự động hóa công việc thường nhật.",
+          "startTime": 14,
+          "endTime": 24
+        },
+        {
+          "id": "sec-cta",
+          "type": "cta",
+          "text": "Bạn đã sẵn sàng xây dựng hệ thống thông minh của riêng mình chưa? Hãy bấm follow để đón xem các hướng dẫn thực chiến tiếp theo nhé!",
+          "startTime": 24,
+          "endTime": 30
+        }
+      ]
+    },
+    "scenes": [
+      {
+        "id": "scene-1-hook",
+        "template": "HookScene",
+        "startFrame": 0,
+        "durationInFrames": 120,
+        "transition": {
+          "type": "none",
+          "durationInFrames": 8
+        },
+        "props": {
+          "badgeText": "AI EXPLAINER",
+          "title": "AI Agent Là Gì? Giải Thích Cực Dễ Hiểu Trong 30 Giây",
+          "subtitle": "AI Agent là gì mà giới công nghệ lại nhắc tới nhiều đến vậy?",
+          "accentColor": "#38bdf8"
+        }
+      },
+      {
+        "id": "scene-2-context",
+        "template": "AIConceptScene",
+        "startFrame": 120,
+        "durationInFrames": 300,
+        "transition": {
+          "type": "fade",
+          "durationInFrames": 8
+        },
+        "props": {
+          "conceptTitle": "AI Agent",
+          "summary": "Khác với chatbot thông thường chỉ trò chuyện qua lại, AI Agent sở hữu khả năng tự lập kế hoạch, tự gọi công cụ và giải quyết các bài toán phức tạp một cách độc lập từ đầu đến cuối.",
+          "pillars": [
+            {
+              "title": "Hiểu Ngữ Cảnh",
+              "description": "Tiếp nhận và giải mã prompt",
+              "icon": "brain"
+            },
+            {
+              "title": "Lập Kế Hoạch",
+              "description": "Phân rã bài toán thành tác vụ",
+              "icon": "tree"
+            },
+            {
+              "title": "Gọi Công Cụ",
+              "description": "API, Terminal, Database",
+              "icon": "tools"
+            },
+            {
+              "title": "Đánh Giá & Trả Lời",
+              "description": "Tự kiểm tra chất lượng đầu ra",
+              "icon": "check"
+            }
+          ],
+          "accentColor": "#8b5cf6"
+        }
+      },
+      {
+        "id": "scene-3-analysis",
+        "template": "ArchitectureScene",
+        "startFrame": 420,
+        "durationInFrames": 300,
+        "transition": {
+          "type": "fade",
+          "durationInFrames": 8
+        },
+        "props": {
+          "headline": "Điểm Nổi Bật & Ứng Dụng",
+          "points": [
+            "AI Agent đang là một trong những công nghệ then chốt định hình tương lai phần mềm.",
+            "Kết hợp giữa năng lực hiểu ngôn ngữ tự nhiên và khả năng tương tác môi trường thực tế.",
+            "Giúp lập trình viên chuyển đổi từ việc viết mã thủ công sang xây dựng hệ thống tự hành thông minh."
+          ],
+          "highlightText": "Trong kỷ nguyên mới, đây chính là kỹ năng quan trọng giúp bạn bứt phá năng suất lập trình và tự động hóa công việc thường nhật.",
+          "accentColor": "#38bdf8"
+        }
+      },
+      {
+        "id": "scene-4-cta",
+        "template": "OutroScene",
+        "startFrame": 720,
+        "durationInFrames": 30,
+        "transition": {
+          "type": "fade",
+          "durationInFrames": 8
+        },
+        "props": {
+          "callToAction": "Follow ngay để nắm bắt AI thực chiến!",
+          "channelName": "Tech Pulse Vietnam",
+          "tags": [
+            "#AIAgent",
+            "#HocLapTrinh",
+            "#TechExplainer",
+            "#AI2025"
+          ],
+          "accentColor": "#ec4899"
+        }
+      }
+    ],
+    "metadata": {
+      "author": "Tech Pulse Vietnam",
+      "createdAt": "2026-11-07T10:34:43.074Z",
+      "tags": [
+        "#AIAgent",
+        "#HocLapTrinh",
+        "#TechExplainer",
+        "#AI2025"
+      ]
+    }
+  },
+  "outputPath": "out/ai_agent_tiktok.mp4"
+}

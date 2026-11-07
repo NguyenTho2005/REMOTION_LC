@@ -1,0 +1,47 @@
+{
+  "videoId": "supermemory-review-001",
+  "overallPassed": true,
+  "score": 100,
+  "checks": [
+    {
+      "name": "File Integrity",
+      "passed": true,
+      "details": "File size: 6.45 MB",
+      "score": 100
+    },
+    {
+      "name": "Resolution & Aspect Ratio (9:16)",
+      "passed": true,
+      "details": "Resolution verified: 1080x1920 (9:16 vertical)",
+      "score": 100
+    },
+    {
+      "name": "Audio Stream Presence",
+      "passed": true,
+      "details": "Audio stream detected (2 channels)",
+      "score": 100
+    },
+    {
+      "name": "Frame Rate (30 FPS)",
+      "passed": true,
+      "details": "Frame rate verified: 30 FPS",
+      "score": 100
+    },
+    {
+      "name": "Duration Alignment",
+      "passed": true,
+      "details": "Duration: 60.31s (Target: 60.30s, diff: 0.01s)",
+      "score": 100
+    }
+  ],
+  "mediaMetadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 60.309,
+    "hasAudio": true,
+    "audioChannels": 2,
+    "fileSizeBytes": 6764772
+  },
+  "timestamp": "2026-11-07T10:54:23.082Z"
+}

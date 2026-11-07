@@ -26,8 +26,11 @@
   "scripts": {
     "dev": "remotion studio",
     "tts": "PYTHONPATH=tts-service tts-service/.venv/bin/python tts-service/app/main.py",
+    "test": "node --experimental-strip-types --test tests/planner.test.ts tests/engines.test.ts tests/pipeline.test.ts",
     "test:tts": "PYTHONPATH=tts-service tts-service/.venv/bin/pytest tts-service/tests",
     "render": "remotion render MyComp out/output.mp4",
+    "render:tiktok": "remotion render src/index.ts TikTokVideo out/tiktok-video.mp4",
+    "generate": "node --experimental-strip-types scripts/generate-video.ts",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
