@@ -1,0 +1,12 @@
+{
+  "asset_id": "3cefb10b-458a-42a0-872a-de32127bf950",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Với những nhiệm vụ lớn hơn, chúng ta có thể xây dựng hệ thống nhiều Agent. Một Agent phụ trách nghiên cứu, một Agent viết nội dung, một Agent kiểm tra và một Agent tổng hợp kết quả. Chúng phối hợp với nhau dưới sự điều phối của một hệ thống trung tâm.",
+  "file_name": "3cefb10b-458a-42a0-872a-de32127bf950.wav",
+  "audio_url": "/audio/generated/3cefb10b-458a-42a0-872a-de32127bf950.wav",
+  "duration": 12.16,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T21:12:34.610531+00:00",
+  "status": "completed"
+}

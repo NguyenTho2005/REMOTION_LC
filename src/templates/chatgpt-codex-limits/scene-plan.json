@@ -1,0 +1,440 @@
+{
+  "projectId": "chatgpt-codex-limits",
+  "projectTitle": "OpenAI ChatGPT & Codex Usage Limits Explainer",
+  "topic": "OpenAI công bố kế hoạch dùng chung hạn mức ChatGPT và Codex từ tháng 12/2026",
+  "fps": 30,
+  "resolution": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "totalDurationInFrames": 1773,
+  "totalDurationInSeconds": 59.1,
+  "voiceProfile": {
+    "provider": "ZeroTTS",
+    "voiceId": "quangminh",
+    "voiceDisplayName": "Quang Minh",
+    "style": "Nam, trẻ, tin tức công nghệ, dứt khoát",
+    "sampleRate": 48000
+  },
+  "designSystem": {
+    "style": "Editorial Motion Graphics + Kinetic Typography + Minimalist 2D Tech",
+    "backgroundAlternation": "Dark -> Light -> Dark -> Dark -> Light -> Dark -> Light -> Dark -> Dark",
+    "primaryColors": {
+      "chatgptGreen": "#10A37F",
+      "codexCyan": "#38BDF8",
+      "accentAmber": "#F59E0B",
+      "darkBg": "#0B0F19",
+      "lightBg": "#F8F9FA"
+    }
+  },
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "title": "Hook: ChatGPT & Codex song hành",
+      "startFrame": 0,
+      "endFrame": 181,
+      "durationInFrames": 181,
+      "durationInSeconds": 6.033,
+      "voice": {
+        "text": "Bạn đang dùng cả ChatGPT lẫn Codex mỗi ngày? Vậy thì có một thay đổi từ OpenAI mà bạn nên biết!",
+        "audioSrc": "audio/chatgpt-codex-limits/S01.wav",
+        "audioDurationSec": 5.36
+      },
+      "visualTheme": {
+        "background": "#0B0F19",
+        "colorMode": "dark",
+        "accent": "#38BDF8"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Hai thẻ bài ChatGPT và Codex trượt vào từ hai bên trái/phải với spring physics."
+        },
+        {
+          "frame": 45,
+          "action": "Dấu hỏi lớn xuất hiện giữa hai biểu tượng, đường line liên kết nhấp nháy năng lượng."
+        },
+        {
+          "frame": 90,
+          "action": "Kinetic text 'MỖI NGÀY?' phóng to dứt khoát theo nhịp voice."
+        },
+        {
+          "frame": 125,
+          "action": "Huy hiệu cảnh báo đỏ/vàng 'OPENAI UPDATE' bung ra ở góc trên."
+        }
+      ],
+      "animation": {
+        "enter": "horizontal-split-slide",
+        "kineticTypography": "pop-scale-spring",
+        "exit": "fade-zoom"
+      },
+      "motionElements": [
+        "ChatGPT emerald card with vector icon",
+        "Codex cyan/amber card with code brackets icon",
+        "Kinetic headline 'BẠN DÙNG CẢ HAI?'",
+        "Karaoke Subtitle with per-word acoustic highlight"
+      ]
+    },
+    {
+      "sceneId": "S02",
+      "title": "Announcement: Timeline Tháng 12/2026",
+      "startFrame": 181,
+      "endFrame": 436,
+      "durationInFrames": 255,
+      "durationInSeconds": 8.5,
+      "voice": {
+        "text": "Từ tháng 12 năm 2026, OpenAI dự kiến dùng chung hạn mức sử dụng ChatGPT và Codex đối với các gói Plus, Pro và Business.",
+        "audioSrc": "audio/chatgpt-codex-limits/S02.wav",
+        "audioDurationSec": 7.76
+      },
+      "visualTheme": {
+        "background": "#F8F9FA",
+        "colorMode": "light",
+        "accent": "#10A37F"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Nền chuyển sang màu Off-White thanh lịch, thước timeline trượt vào từ phía dưới."
+        },
+        {
+          "frame": 40,
+          "action": "Thanh trượt chuyển từ 'THÁNG 11' sang 'THÁNG 12/2026' được đóng khung highlight nổi bật."
+        },
+        {
+          "frame": 95,
+          "action": "Huy hiệu 'KẾ HOẠCH DỰ KIẾN' (Announced Plan) ghim trên mốc tháng 12."
+        },
+        {
+          "frame": 150,
+          "action": "3 thẻ bài gói cước: PLUS, PRO, BUSINESS lần lượt nảy lên theo nhịp đọc."
+        }
+      ],
+      "animation": {
+        "enter": "color-invert-wipe",
+        "timelineSlider": "linear-interpolation-snap",
+        "badgesStagger": "staggered-spring-up"
+      },
+      "motionElements": [
+        "Horizontal interactive timeline calendar",
+        "Month flip effect from Nov to Dec 2026",
+        "Trio plan tier cards (Plus $20, Pro $200, Business)",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S03",
+      "title": "Shared Limit: Cơ chế cũ riêng biệt",
+      "startFrame": 436,
+      "endFrame": 577,
+      "durationInFrames": 141,
+      "durationInSeconds": 4.7,
+      "voice": {
+        "text": "Nghĩa là sao? Trước đây, bạn có thể quen với việc theo dõi giới hạn của từng công cụ riêng biệt.",
+        "audioSrc": "audio/chatgpt-codex-limits/S03.wav",
+        "audioDurationSec": 4.08
+      },
+      "visualTheme": {
+        "background": "#0B0F19",
+        "colorMode": "dark",
+        "accent": "#F59E0B"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Kinetic typography 'NGHĨA LÀ SAO?' bung lớn ở trọng tâm màn hình."
+        },
+        {
+          "frame": 35,
+          "action": "Hai cột đo tách biệt (Before): Cột 1 'ChatGPT Limit', Cột 2 'Codex Limit' xuất hiện với vạch đo riêng."
+        },
+        {
+          "frame": 80,
+          "action": "Biểu tượng khóa độc lập ở mỗi bên thể hiện việc quản lý phân mảnh trước đây."
+        }
+      ],
+      "animation": {
+        "typography": "slam-zoom-spring",
+        "dualColumns": "grow-from-bottom"
+      },
+      "motionElements": [
+        "Kinetic 'Nghĩa là sao?'",
+        "Dual isolated usage columns with independent level meters",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S04",
+      "title": "Token Usage: Bể hạn mức chung",
+      "startFrame": 577,
+      "endFrame": 706,
+      "durationInFrames": 129,
+      "durationInSeconds": 4.3,
+      "voice": {
+        "text": "Nhưng theo kế hoạch mới, mức sử dụng sẽ được tính bằng token trong một hạn mức chung.",
+        "audioSrc": "audio/chatgpt-codex-limits/S04.wav",
+        "audioDurationSec": 3.68
+      },
+      "visualTheme": {
+        "background": "#0B0F19",
+        "colorMode": "dark",
+        "accent": "#38BDF8"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Hai cột riêng biệt morph hợp nhất thành một bồn chứa hình trụ / card lớn 'SHARED TOKEN POOL'."
+        },
+        {
+          "frame": 35,
+          "action": "Các khối hộp Token phát sáng tối giản từ hai nguồn rót dồn vào bể chung."
+        },
+        {
+          "frame": 75,
+          "action": "Thanh đo % Token nhảy số từ 0% lên dần với nhãn '100% UNIFIED ALLOWANCE'."
+        }
+      ],
+      "animation": {
+        "morphMerge": "svg-morph-spring",
+        "particleTokens": "gravity-drop-stagger",
+        "meterProgress": "ease-out-cubic"
+      },
+      "motionElements": [
+        "Unified Shared Pool container",
+        "Minimalist geometric token cubes stream",
+        "Dynamic % gauge indicator",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S05",
+      "title": "Task Complexity: Model mạnh & Tác vụ nặng",
+      "startFrame": 706,
+      "endFrame": 925,
+      "durationInFrames": 219,
+      "durationInSeconds": 7.3,
+      "voice": {
+        "text": "Và đây mới là điểm đáng chú ý! Bạn sử dụng model càng mạnh, hoặc giao cho AI những tác vụ càng phức tạp, thì có thể tiêu hao hạn mức càng nhiều.",
+        "audioSrc": "audio/chatgpt-codex-limits/S05.wav",
+        "audioDurationSec": 6.56
+      },
+      "visualTheme": {
+        "background": "#F8F9FA",
+        "colorMode": "light",
+        "accent": "#EF4444"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Nền sáng chuyển sang split screen chia đôi: Bên trái 'Tác vụ cơ bản', Bên phải 'Tác vụ phức tạp'."
+        },
+        {
+          "frame": 40,
+          "action": "Bên trái: câu hỏi ngắn 'Explain a function' -> trừ nhẹ -1x token, thanh đo rút chậm."
+        },
+        {
+          "frame": 90,
+          "action": "Bên phải: Codex refactoring cả repository + reasoning o1/o3 -> đồng hồ nhảy vọt -5x token, thanh đo tụt nhanh với cảnh báo đỏ."
+        },
+        {
+          "frame": 150,
+          "action": "Biểu tượng cảnh báo 'HIGH CONSUMPTION' chớp sáng dứt khoát."
+        }
+      ],
+      "animation": {
+        "splitScreen": "wipe-horizontal",
+        "meterBurn": "fast-deplete-shake",
+        "alertBadge": "heartbeat-pulse"
+      },
+      "motionElements": [
+        "Split comparison visual cards",
+        "Fast depleting progress meter vs Slow depleting meter",
+        "Code refactoring visual snippet",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S06",
+      "title": "Instant Exception: ChatGPT Instant không trừ",
+      "startFrame": 925,
+      "endFrame": 1106,
+      "durationInFrames": 181,
+      "durationInSeconds": 6.033,
+      "voice": {
+        "text": "Vậy chat bình thường có bị tính không? Theo thông báo, ChatGPT Instant sẽ không trừ vào hạn mức sử dụng chung này.",
+        "audioSrc": "audio/chatgpt-codex-limits/S06.wav",
+        "audioDurationSec": 5.36
+      },
+      "visualTheme": {
+        "background": "#0B0F19",
+        "colorMode": "dark",
+        "accent": "#10A37F"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Khung chat tối giản gõ dòng prompt bình thường 'Thời tiết hôm nay thế nào?'."
+        },
+        {
+          "frame": 45,
+          "action": "Con dấu hình chữ nhật bo góc 'CHATGPT INSTANT — EXCLUDED' đóng mạnh xuống màn hình."
+        },
+        {
+          "frame": 90,
+          "action": "Thanh hạn mức chung bên cạnh hiển thị '0 TOKEN DEDUCTED', biểu tượng khiên bảo vệ xanh lục bao bọc."
+        }
+      ],
+      "animation": {
+        "chatTyping": "typewriter-effect",
+        "stampImpact": "elastic-stamp-down",
+        "shieldGlow": "soft-emerald-pulse"
+      },
+      "motionElements": [
+        "Minimalist Chat dialogue bubble",
+        "Green Stamp 'KHÔNG TÍNH VÀO HẠN MỨC'",
+        "Shield protector badge with 0 token drain indicator",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S07",
+      "title": "Usage Dashboard: Giao diện kiểm tra Settings",
+      "startFrame": 1106,
+      "endFrame": 1249,
+      "durationInFrames": 143,
+      "durationInSeconds": 4.767,
+      "voice": {
+        "text": "Bạn cũng có thể kiểm tra hạn mức còn lại và thời gian đặt lại trong Settings, mục Usage.",
+        "audioSrc": "audio/chatgpt-codex-limits/S07.wav",
+        "audioDurationSec": 4.16
+      },
+      "visualTheme": {
+        "background": "#F8F9FA",
+        "colorMode": "light",
+        "accent": "#38BDF8"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Mô phỏng UI Settings của OpenAI trượt lên với menu bên trái trỏ vào mục 'Usage'."
+        },
+        {
+          "frame": 40,
+          "action": "Thẻ Usage Overview hiển thị thước đo hạn mức: '68% còn lại' (Remaining Allowance)."
+        },
+        {
+          "frame": 85,
+          "action": "Thẻ con đếm ngược 'Resets in: 2 days 14 hours' được viền sáng làm nổi bật."
+        }
+      ],
+      "animation": {
+        "uiCardSlide": "slide-up-spring",
+        "cursorPoint": "smooth-pointer-click",
+        "gaugeFill": "smooth-fill-animate"
+      },
+      "motionElements": [
+        "Clean minimal Settings dialog layout",
+        "Navigation highlight on 'Usage' tab",
+        "Circular or horizontal remaining balance bar",
+        "Countdown clock 'Resets in 2d 14h'",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S08",
+      "title": "Reaching Limits: Cây quyết định 3 lựa chọn",
+      "startFrame": 1249,
+      "endFrame": 1416,
+      "durationInFrames": 167,
+      "durationInSeconds": 5.567,
+      "voice": {
+        "text": "Còn nếu đạt giới hạn, bạn có thể chờ đặt lại, nâng cấp gói hoặc mua thêm credit cho các tính năng đủ điều kiện.",
+        "audioSrc": "audio/chatgpt-codex-limits/S08.wav",
+        "audioDurationSec": 4.88
+      },
+      "visualTheme": {
+        "background": "#0B0F19",
+        "colorMode": "dark",
+        "accent": "#F59E0B"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Hộp trạng thái trung tâm 'LIMIT REACHED (ĐẠT GIỚI HẠN)' tỏa 3 nhánh rẽ (Decision Tree)."
+        },
+        {
+          "frame": 35,
+          "action": "Nhánh 1 bật ra: '1. Chờ đặt lại' kèm biểu tượng đồng hồ cát."
+        },
+        {
+          "frame": 70,
+          "action": "Nhánh 2 bật ra: '2. Nâng cấp gói' kèm biểu tượng mũi tên thăng hạng (Plus -> Pro)."
+        },
+        {
+          "frame": 105,
+          "action": "Nhánh 3 bật ra: '3. Mua thêm credit' kèm biểu tượng coin token cho tính năng đủ điều kiện."
+        }
+      ],
+      "animation": {
+        "treeBranching": "svg-path-draw-in",
+        "optionsPop": "staggered-scale-pop"
+      },
+      "motionElements": [
+        "Decision tree nodes with connecting vector lines",
+        "Hourglass reset icon",
+        "Tier upgrade arrow icon",
+        "Credit coin purchase icon",
+        "Karaoke Subtitle"
+      ]
+    },
+    {
+      "sceneId": "S09",
+      "title": "Closing: Lưu ý & Lời khuyên Developer",
+      "startFrame": 1416,
+      "endFrame": 1773,
+      "durationInFrames": 357,
+      "durationInSeconds": 11.9,
+      "voice": {
+        "text": "Nhưng nhớ nhé, đây là kế hoạch được công bố cho tháng 12, không có nghĩa tất cả tài khoản đã chuyển sang cơ chế mới ngay lúc này. Nếu thường xuyên dùng Codex để lập trình, hãy kiểm tra mức sử dụng của mình trước khi thay đổi có hiệu lực.",
+        "audioSrc": "audio/chatgpt-codex-limits/S09.wav",
+        "audioDurationSec": 10.96
+      },
+      "visualTheme": {
+        "background": "#0B0F19",
+        "colorMode": "dark",
+        "accent": "#10A37F"
+      },
+      "visualBeats": [
+        {
+          "frame": 0,
+          "action": "Khung thông báo biên tập (Editorial Note) xuất hiện: 'KẾ HOẠCH CHO THÁNG 12 — CHƯA ÁP DỤNG HẾT NGAY'."
+        },
+        {
+          "frame": 110,
+          "action": "Chuyển sang checklist dành cho lập trình viên (Dev Action Checklist): 'Check Settings > Usage' với dấu tick xanh."
+        },
+        {
+          "frame": 220,
+          "action": "Logo OpenAI xuất hiện trang trọng cùng thông điệp tổng kết ngắn gọn."
+        },
+        {
+          "frame": 310,
+          "action": "Outro CTA kinetic typography mượt mà kết thúc video."
+        }
+      ],
+      "animation": {
+        "noticeSlide": "bounce-slide-down",
+        "checklistDraw": "svg-draw-ticks",
+        "outroHold": "clean-logo-reveal"
+      },
+      "motionElements": [
+        "Editorial notice card with exclamation badge",
+        "Interactive developer checklist with checkmarks",
+        "Official OpenAI clean line-art logo",
+        "Outro card with Follow & Share prompt",
+        "Karaoke Subtitle"
+      ]
+    }
+  ]
+}

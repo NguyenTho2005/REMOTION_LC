@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S01",
+    "name": "Intro Staircase",
+    "fileName": "S01.wav",
+    "publicSrc": "audio/five-levels-of-ai/S01.wav",
+    "startFrame": 0,
+    "durationFrames": 300,
+    "audioDurationSec": 5.12,
+    "audioFrames": 154,
+    "text": "Năm cấp độ của trí tuệ nhân tạo. Bạn có biết chúng ta đang thực sự đứng ở bậc thang nào trong cuộc cách mạng này không?",
+    "voiceId": "quangminh"
+  },
+  {
+    "id": "S02",
+    "name": "Level 1 Chatbot",
+    "fileName": "S02.wav",
+    "publicSrc": "audio/five-levels-of-ai/S02.wav",
+    "startFrame": 300,
+    "durationFrames": 450,
+    "audioDurationSec": 10.8,
+    "audioFrames": 324,
+    "text": "Cấp độ một: Chatbot. Ở cấp độ này, chúng ta đặt câu hỏi và AI trả lời. Nó rất thông minh về mặt ngôn ngữ, nhưng hoàn toàn thụ động. Bạn phải tự làm mọi thao tác từ mở file, gửi email đến chạy lệnh.",
+    "voiceId": "quangminh"
+  },
+  {
+    "id": "S03",
+    "name": "Level 2 AI Agent",
+    "fileName": "S03.wav",
+    "publicSrc": "audio/five-levels-of-ai/S03.wav",
+    "startFrame": 750,
+    "durationFrames": 510,
+    "audioDurationSec": 11.36,
+    "audioFrames": 341,
+    "text": "Cấp độ hai: AI Agent. Đây chính là bước ngoặt công nghệ của năm hai mươi hai mươi lăm! Thay vì chỉ trò chuyện, AI Agent có thể tiếp nhận mục tiêu, tự lập kế hoạch và tự động sử dụng trình duyệt, cơ sở dữ liệu và mã lệnh để hoàn thành công việc.",
+    "voiceId": "quangminh"
+  },
+  {
+    "id": "S04",
+    "name": "Level 3 Multimodal",
+    "fileName": "S04.wav",
+    "publicSrc": "audio/five-levels-of-ai/S04.wav",
+    "startFrame": 1260,
+    "durationFrames": 480,
+    "audioDurationSec": 10.96,
+    "audioFrames": 329,
+    "text": "Cấp độ ba: Đa giác quan Multimodal. Không còn giới hạn ở văn bản, AI giờ đây có thể nhìn thấy qua camera, nghe giọng nói và phản hồi tức thời theo thời gian thực dưới ba trăm mili giây như một người trợ lý thực thụ.",
+    "voiceId": "quangminh"
+  },
+  {
+    "id": "S05",
+    "name": "Level 4 AGI",
+    "fileName": "S05.wav",
+    "publicSrc": "audio/five-levels-of-ai/S05.wav",
+    "startFrame": 1740,
+    "durationFrames": 600,
+    "audioDurationSec": 10.8,
+    "audioFrames": 324,
+    "text": "Cấp độ bốn: Trí tuệ nhân tạo tổng quát AGI. Đây là khi một hệ thống AI duy nhất có thể học tập, nghiên cứu và làm việc ngang tầm hoặc vượt qua các chuyên gia hàng đầu trong mọi lĩnh vực trí tuệ, từ toán học đến y sinh.",
+    "voiceId": "quangminh"
+  },
+  {
+    "id": "S06",
+    "name": "Level 5 ASI & Outro",
+    "fileName": "S06.wav",
+    "publicSrc": "audio/five-levels-of-ai/S06.wav",
+    "startFrame": 2340,
+    "durationFrames": 660,
+    "audioDurationSec": 11.92,
+    "audioFrames": 358,
+    "text": "Cấp độ năm: Siêu trí tuệ ASI, vượt xa toàn bộ nhân loại cộng lại. Nhưng thực tế hôm nay, bạn chỉ cần làm chủ cấp độ hai là AI Agent. Ai làm chủ công nghệ hôm nay, người đó sẽ dẫn đầu ngày mai. Bấm follow ngay để cùng làm chủ AI nhé!",
+    "voiceId": "quangminh"
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "production": "Two Sum 3D Algorithm Explainer",
+  "project": "DevPeek36 / REMOTION-LC",
+  "status": "PASSED",
+  "generatedAt": "2026-11-08T16:01:30+07:00",
+  "videoMetrics": {
+    "outputFile": "production/videos/two-sum-3d/output.mp4",
+    "resolution": "1080x1920",
+    "aspectRatio": "9:16",
+    "fps": 30,
+    "totalFrames": 2922,
+    "durationSeconds": 97.40,
+    "targetDurationRange": "90–110s",
+    "withinTargetRange": true,
+    "fileSizeBytes": 12194789,
+    "fileSizeMB": 12.20,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "audioVideoDeltaSec": 0.008
+  },
+  "ttsSynthesis": {
+    "engine": "ZeroTTS ONNX Runtime",
+    "voiceId": "quangminh",
+    "language": "vi-VN",
+    "sampleRate": 48000,
+    "audioTracks": 10,
+    "acousticAlignment": "forced_acoustic_word_level",
+    "wordsAligned": 284
+  },
+  "scenesAudit": [
+    {
+      "sceneId": "scene01",
+      "name": "Hook",
+      "startFrame": 0,
+      "endFrame": 234,
+      "durationFrames": 234,
+      "audioDurationSec": 7.12,
+      "topic": "LeetCode #1 Two Sum hook & interview importance",
+      "visuals": "3D array board floating with scanning pointers, glowing target badge"
+    },
+    {
+      "sceneId": "scene02",
+      "name": "Problem",
+      "startFrame": 234,
+      "endFrame": 554,
+      "durationFrames": 320,
+      "audioDurationSec": 10.00,
+      "topic": "Formal problem definition: nums = [2, 7, 11, 15], target = 9",
+      "visuals": "3D array tiles labeled with indices [0, 1, 2, 3] and values"
+    },
+    {
+      "sceneId": "scene03",
+      "name": "BruteForce",
+      "startFrame": 554,
+      "endFrame": 814,
+      "durationFrames": 260,
+      "audioDurationSec": 8.00,
+      "topic": "Brute Force approach: 2 nested for-loops checking every pair",
+      "visuals": "Pointer i and j scanning all pairwise combinations with danger lines"
+    },
+    {
+      "sceneId": "scene04",
+      "name": "Complexity",
+      "startFrame": 814,
+      "endFrame": 1079,
+      "durationFrames": 265,
+      "audioDurationSec": 8.16,
+      "topic": "O(n^2) Quadratic time complexity explosion",
+      "visuals": "3D triangular comparison matrix showing n(n-1)/2 pairs exploding"
+    },
+    {
+      "sceneId": "scene05",
+      "name": "HashMap",
+      "startFrame": 1079,
+      "endFrame": 1349,
+      "durationFrames": 270,
+      "audioDurationSec": 8.32,
+      "topic": "The core optimization insight: using Hash Map memory",
+      "visuals": "3D floating HashMap memory table with Key (Value) -> Val (Index)"
+    },
+    {
+      "sceneId": "scene06",
+      "name": "Complement",
+      "startFrame": 1349,
+      "endFrame": 1751,
+      "durationFrames": 402,
+      "audioDurationSec": 12.72,
+      "topic": "Complement calculation: complement = target - nums[i]",
+      "visuals": "3D laser beam projecting complement query into HashMap memory"
+    },
+    {
+      "sceneId": "scene07",
+      "name": "Match",
+      "startFrame": 1751,
+      "endFrame": 2023,
+      "durationFrames": 272,
+      "audioDurationSec": 8.40,
+      "topic": "Match found at index 1: 9 - 7 = 2, returning [0, 1]",
+      "visuals": "Tiles [2] and [7] ignite in emerald green with victory equation banner"
+    },
+    {
+      "sceneId": "scene08",
+      "name": "Mistakes",
+      "startFrame": 2023,
+      "endFrame": 2353,
+      "durationFrames": 330,
+      "audioDurationSec": 10.32,
+      "topic": "Duplicate trap: nums = [3, 3], target = 6 & self-pairing hazard",
+      "visuals": "Split 3D view with crimson self-loop warning vs correct one-pass sequence"
+    },
+    {
+      "sceneId": "scene09",
+      "name": "Comparison",
+      "startFrame": 2353,
+      "endFrame": 2690,
+      "durationFrames": 337,
+      "audioDurationSec": 10.56,
+      "topic": "Space-Time Tradeoff: O(n^2) / O(1) vs O(n) / O(n)",
+      "visuals": "Two 3D pedestals tilting in space balancing Time vs Memory"
+    },
+    {
+      "sceneId": "scene10",
+      "name": "Outro",
+      "startFrame": 2690,
+      "endFrame": 2922,
+      "durationFrames": 232,
+      "audioDurationSec": 7.04,
+      "topic": "Key mnemonic rule & DevPeek36 call-to-action",
+      "visuals": "Glowing algorithmic rings orbiting central octahedron with CTA banner"
+    }
+  ],
+  "safeAreaAudit": {
+    "platform": "TikTok 9:16 Vertical (1080x1920)",
+    "topReservedPx": 150,
+    "bottomReservedPx": 280,
+    "rightReservedPx": 120,
+    "activeCenterBox": "800x1400",
+    "captionsBottomPlacementPx": 260,
+    "allTextContainedInSafeArea": true,
+    "responsiveCameraRigIntegrated": true,
+    "noClippingAcrossAnimation": true
+  },
+  "codebaseStandardsAudit": {
+    "strictTypeScript": true,
+    "noAnyUsed": true,
+    "eslintWarnings": 0,
+    "eslintErrors": 0,
+    "frameDrivenAnimations": true,
+    "noPhantomCode": true
+  }
+}

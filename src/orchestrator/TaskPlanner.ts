@@ -41,6 +41,9 @@ export class TaskPlanner {
   }
 
   private static detectCategory(lower: string): VideoCategory {
+    if (lower.includes("3d") || lower.includes("three.js") || lower.includes("threejs") || lower.includes("motion 3d") || lower.includes("không gian 3d")) {
+      return "3d-motion";
+    }
     if (lower.includes("github") || lower.includes("repo") || lower.includes("mã nguồn mở") || lower.includes("open-source")) {
       return "github-repo-review";
     }
@@ -73,6 +76,8 @@ export class TaskPlanner {
 
     // Default durations per category
     switch (category) {
+      case "3d-motion":
+        return 30;
       case "tech-news":
         return 35;
       case "ai-news":
@@ -91,6 +96,8 @@ export class TaskPlanner {
 
   private static recommendVoice(category: VideoCategory): VoiceId {
     switch (category) {
+      case "3d-motion":
+        return "quangminh";
       case "tech-news":
         return "baotrang";
       case "ai-news":
@@ -111,6 +118,13 @@ export class TaskPlanner {
     totalDuration: number
   ): PlanResult["suggestedScenes"] {
     switch (category) {
+      case "3d-motion":
+        return [
+          { template: "ThreeCinematicIntro", targetDurationSeconds: 4, description: "3D typography reveal & particle intro hook" },
+          { template: "ThreeTechExplainer", targetDurationSeconds: 10, description: "3D connected graph and node network" },
+          { template: "ThreeAlgorithmViz", targetDurationSeconds: 10, description: "Step-by-step 3D algorithm visualization" },
+          { template: "ThreeHybridExplainer", targetDurationSeconds: Math.max(6, totalDuration - 24), description: "Hybrid 3D object with 2D callouts and CTA" },
+        ];
       case "github-repo-review":
         return [
           { template: "HookScene", targetDurationSeconds: 5, description: "Attention-grabbing hook highlighting repo impact" },

@@ -9,10 +9,16 @@
   },
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
     "@remotion/cli": "4.0.541",
+    "@remotion/three": "^4.0.541",
+    "@types/three": "^0.170.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
-    "remotion": "4.0.541"
+    "remotion": "4.0.541",
+    "roughjs": "^4.6.6",
+    "three": "^0.170.0"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.541",
@@ -26,14 +32,18 @@
   "scripts": {
     "dev": "remotion studio",
     "tts": "PYTHONPATH=tts-service tts-service/.venv/bin/python tts-service/app/main.py",
-    "test": "node --experimental-strip-types --test tests/planner.test.ts tests/engines.test.ts tests/pipeline.test.ts",
+    "test": "node --experimental-strip-types --test tests/planner.test.ts tests/engines.test.ts tests/pipeline.test.ts tests/five-levels-of-ai.test.ts tests/editorial-sketch.test.ts tests/chatgpt-codex-limits.test.ts tests/three-motion.test.ts tests/particle-vfx.test.ts",
     "test:tts": "PYTHONPATH=tts-service tts-service/.venv/bin/pytest tts-service/tests",
     "render": "remotion render MyComp out/output.mp4",
     "render:tiktok": "remotion render src/index.ts TikTokVideo out/tiktok-video.mp4",
+    "render:narratoai": "remotion render src/index.ts NarratoAIEditorialSketch out/narratoai-editorial.mp4",
+    "render:chatgpt-codex": "remotion render src/index.ts ChatGPTCodexLimits out/chatgpt-codex-limits.mp4",
     "generate": "node --experimental-strip-types scripts/generate-video.ts",
+    "generate:editorial": "node --experimental-strip-types scripts/generate-editorial-video.ts",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "test:3d-framing": "node_modules/.bin/esbuild scripts/validate3DFraming.ts --bundle --platform=node --external:three --outfile=scripts/.validate3DFraming.cjs && node scripts/.validate3DFraming.cjs && rm -f scripts/.validate3DFraming.cjs"
   },
   "allowScripts": {
     "esbuild": false

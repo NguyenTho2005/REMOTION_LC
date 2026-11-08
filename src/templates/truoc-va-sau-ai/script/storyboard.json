@@ -1,0 +1,288 @@
+{
+  "title": "TRƯỚC VÀ SAU AI — KHI CUỘC SỐNG THAY ĐỔI",
+  "totalDurationSeconds": 300,
+  "totalFrames": 9000,
+  "fps": 30,
+  "resolution": { "width": 1920, "height": 1080 },
+  "acts": [
+    {
+      "act": 1,
+      "title": "Thói Quen Cũ",
+      "startFrame": 0,
+      "endFrame": 1350,
+      "durationInFrames": 1350,
+      "shots": [
+        {
+          "shotId": "ACT1_SHOT01",
+          "startFrame": 0,
+          "endFrame": 240,
+          "action": "Minh ngồi gục đầu trước bàn làm việc ngổn ngang giấy tờ, tách cà phê nguội",
+          "expression": "exhausted",
+          "camera": "Wide establishing pan-in",
+          "sfx": "clock_tick_heavy"
+        },
+        {
+          "shotId": "ACT1_SHOT02",
+          "startFrame": 240,
+          "endFrame": 600,
+          "action": "Minh gõ phím cọc cạch, lật tìm thông tin, mở hơn 20 tab trình duyệt",
+          "expression": "confused",
+          "camera": "Medium shot on laptop screen",
+          "sfx": "typing_frustrated"
+        },
+        {
+          "shotId": "ACT1_SHOT03",
+          "startFrame": 600,
+          "endFrame": 950,
+          "action": "Minh vò nát tờ giấy bản thảo ném vào sọt rác, thở dài chán nản",
+          "expression": "frustrated",
+          "camera": "Close-up on Minh's face",
+          "sfx": "paper_crumple"
+        },
+        {
+          "shotId": "ACT1_SHOT04",
+          "startFrame": 950,
+          "endFrame": 1350,
+          "action": "Đồng hồ điểm 11h đêm, Minh ngả người ra sau ghế nhìn trần nhà",
+          "expression": "thoughtful",
+          "camera": "Pull-back slow zoom",
+          "sfx": "chair_creak"
+        }
+      ]
+    },
+    {
+      "act": 2,
+      "title": "Cuộc Sống Trước Generative AI",
+      "startFrame": 1350,
+      "endFrame": 2850,
+      "durationInFrames": 1500,
+      "shots": [
+        {
+          "shotId": "ACT2_SHOT01",
+          "startFrame": 1350,
+          "endFrame": 1750,
+          "action": "Minh lật từng trang từ điển dày cộp, gạch chân dòng chữ bằng bút dạ",
+          "expression": "thoughtful",
+          "camera": "Over-the-shoulder book view",
+          "sfx": "page_turn"
+        },
+        {
+          "shotId": "ACT2_SHOT02",
+          "startFrame": 1750,
+          "endFrame": 2150,
+          "action": "Bảng vẽ tay sơ đồ ý tưởng với mũi tên chằng chịt, Minh kiên nhẫn gỡ rối",
+          "expression": "thinking",
+          "camera": "Top-down diagram view",
+          "sfx": "pencil_scratch"
+        },
+        {
+          "shotId": "ACT2_SHOT03",
+          "startFrame": 2150,
+          "endFrame": 2500,
+          "action": "Minh fix bug mã nguồn, thử và sai nhiều lần cho đến khi pass test",
+          "expression": "focused",
+          "camera": "Side profile desk view",
+          "sfx": "keyboard_rhythm"
+        },
+        {
+          "shotId": "ACT2_SHOT04",
+          "startFrame": 2500,
+          "endFrame": 2850,
+          "action": "Ánh sáng đổi từ hoàng hôn sang đêm, Minh vươn vai mỉm cười tự hào vì tự giải quyết được",
+          "expression": "happy",
+          "camera": "Medium wide hero hold",
+          "sfx": "bell_ding"
+        }
+      ]
+    },
+    {
+      "act": 3,
+      "title": "Sự Xuất Hiện Của AI Phổ Cập",
+      "startFrame": 2850,
+      "endFrame": 4050,
+      "durationInFrames": 1200,
+      "shots": [
+        {
+          "shotId": "ACT3_SHOT01",
+          "startFrame": 2850,
+          "endFrame": 3150,
+          "action": "Cửa sổ chatbox vẽ tay xuất hiện trên màn hình laptop, con trỏ nhấp nháy",
+          "expression": "curious",
+          "camera": "Close-up on UI interface",
+          "sfx": "soft_chime"
+        },
+        {
+          "shotId": "ACT3_SHOT02",
+          "startFrame": 3150,
+          "endFrame": 3500,
+          "action": "Minh gõ ngập ngừng câu hỏi, dòng phản hồi tuôn chảy mượt mà ngay tức thì",
+          "expression": "surprised",
+          "camera": "Minh reaction two-shot with laptop",
+          "sfx": "stream_text"
+        },
+        {
+          "shotId": "ACT3_SHOT03",
+          "startFrame": 3500,
+          "endFrame": 3800,
+          "action": "Hoạt họa cuộn chỉ rối màu đen biến hình thành sơ đồ tư duy màu vàng mạch lạc",
+          "expression": "excited",
+          "camera": "Central graphic transformation",
+          "sfx": "whoosh_sparkle"
+        },
+        {
+          "shotId": "ACT3_SHOT04",
+          "startFrame": 3800,
+          "endFrame": 4050,
+          "action": "Minh chống cằm cười rạng rỡ, nhìn về phía chân trời cơ hội mở rộng",
+          "expression": "happy",
+          "camera": "Medium pan up",
+          "sfx": "uplifting_swell"
+        }
+      ]
+    },
+    {
+      "act": 4,
+      "title": "Vạn Vật Đổi Thay (Micro-stories)",
+      "startFrame": 4050,
+      "endFrame": 6000,
+      "durationInFrames": 1950,
+      "shots": [
+        {
+          "shotId": "ACT4_SHOT01",
+          "startFrame": 4050,
+          "endFrame": 4450,
+          "action": "Bạn sinh viên ngồi học bài với gia sư AI, bài toán khó trở nên dễ hiểu",
+          "expression": "student_happy",
+          "camera": "Vignette 1: Student room",
+          "sfx": "notebook_scribble"
+        },
+        {
+          "shotId": "ACT4_SHOT02",
+          "startFrame": 4450,
+          "endFrame": 4850,
+          "action": "Lập trình viên sửa xong lỗi code trong vài giây, biểu tượng tick xanh bật lên",
+          "expression": "coder_confident",
+          "camera": "Vignette 2: Developer workstation",
+          "sfx": "terminal_success"
+        },
+        {
+          "shotId": "ACT4_SHOT03",
+          "startFrame": 4850,
+          "endFrame": 5250,
+          "action": "Chị chủ tiệm cà phê soạn xong thư chào hàng chuyên nghiệp, mỉm cười gật đầu",
+          "expression": "business_smile",
+          "camera": "Vignette 3: Cafe counter",
+          "sfx": "cash_register_ding"
+        },
+        {
+          "shotId": "ACT4_SHOT04",
+          "startFrame": 5250,
+          "endFrame": 5600,
+          "action": "Nhà thiết kế phác thảo ý tưởng từ các prompt gợi ý đầy màu sắc",
+          "expression": "designer_creative",
+          "camera": "Vignette 4: Art easel",
+          "sfx": "brush_stroke"
+        },
+        {
+          "shotId": "ACT4_SHOT05",
+          "startFrame": 5600,
+          "endFrame": 6000,
+          "action": "Bác lớn tuổi đeo kính nhờ trợ lý giải thích công nghệ, cười hiền hậu",
+          "expression": "elder_smile",
+          "camera": "Vignette 5: Living room couch",
+          "sfx": "tea_sip"
+        }
+      ]
+    },
+    {
+      "act": 5,
+      "title": "Cú Vấp Bất Ngờ & Điểm Nghẽn",
+      "startFrame": 6000,
+      "endFrame": 7650,
+      "durationInFrames": 1650,
+      "shots": [
+        {
+          "shotId": "ACT5_SHOT01",
+          "startFrame": 6000,
+          "endFrame": 6350,
+          "action": "Minh trở nên ỷ lại, vội vàng copy-paste kết quả AI vào bản báo cáo mà không đọc",
+          "expression": "careless",
+          "camera": "Fast typing close-up",
+          "sfx": "rapid_click"
+        },
+        {
+          "shotId": "ACT5_SHOT02",
+          "startFrame": 6350,
+          "endFrame": 6750,
+          "action": "Buổi họp: Đồng nghiệp chỉ ra số liệu bịa đặt (hallucination); Minh sững sờ, đỏ mặt",
+          "expression": "embarrassed",
+          "camera": "Meeting room wide reveal",
+          "sfx": "awkward_silence_murmur"
+        },
+        {
+          "shotId": "ACT5_SHOT03",
+          "startFrame": 6750,
+          "endFrame": 7200,
+          "action": "Màn hình laptop nổ bùng các gợi ý tự động hoa mỹ nhưng rỗng tuếch, vây kín Minh",
+          "expression": "overwhelmed",
+          "camera": "Chaotic dizzying zoom",
+          "sfx": "buzzing_overload"
+        },
+        {
+          "shotId": "ACT5_SHOT04",
+          "startFrame": 7200,
+          "endFrame": 7650,
+          "action": "Minh dừng lại. Anh thở dài, đưa tay gấp chiếc laptop: Cạch! Căn phòng tĩnh lặng hoàn toàn.",
+          "expression": "somber_thoughtful",
+          "camera": "Slow cinematic hold on closed laptop",
+          "sfx": "laptop_snap_shut"
+        }
+      ]
+    },
+    {
+      "act": 6,
+      "title": "Lựa Chọn Của Con Người",
+      "startFrame": 7650,
+      "endFrame": 9000,
+      "durationInFrames": 1350,
+      "shots": [
+        {
+          "shotId": "ACT6_SHOT01",
+          "startFrame": 7650,
+          "endFrame": 8000,
+          "action": "Bình minh chiếu vào bàn làm việc: Bên trái là laptop, bên phải là cuốn sổ tay",
+          "expression": "peaceful",
+          "camera": "Warm golden hour wide pan",
+          "sfx": "morning_birds"
+        },
+        {
+          "shotId": "ACT6_SHOT02",
+          "startFrame": 8000,
+          "endFrame": 8450,
+          "action": "Minh dùng AI để gợi ý, nhưng tự tay viết và kiểm tra từng sự thật trên trang giấy",
+          "expression": "confident_mindful",
+          "camera": "Split desk view (laptop + pen writing)",
+          "sfx": "fountain_pen_scratch"
+        },
+        {
+          "shotId": "ACT6_SHOT03",
+          "startFrame": 8450,
+          "endFrame": 8800,
+          "action": "Minh mỉm cười thanh thản, nhấp ngụm trà ấm; hình ảnh trở lại bố cục cảnh đầu nhưng trật tự, an yên",
+          "expression": "serene",
+          "camera": "Slow pull-back shot",
+          "sfx": "acoustic_guitar_soft"
+        },
+        {
+          "shotId": "ACT6_SHOT04",
+          "startFrame": 8800,
+          "endFrame": 9000,
+          "action": "Dòng chữ viết tay hiện lên: 'AI có thể giúp chúng ta làm nhanh hơn. Nhưng quyết định điều gì đáng làm, điều gì đúng, và điều gì có ý nghĩa... vẫn là trách nhiệm của con người.'",
+          "expression": "none",
+          "camera": "Still reflection hold",
+          "sfx": "fade_to_gentle_silence"
+        }
+      ]
+    }
+  ]
+}

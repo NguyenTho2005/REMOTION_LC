@@ -63,6 +63,15 @@ export class StoryboardEngine {
     index: number,
     total: number
   ): Scene["template"] {
+    if (category === "3d-motion") {
+      if (index === 0 || sectionType === "hook") return "ThreeCinematicIntro";
+      if (index === total - 1 || sectionType === "cta") return "ThreeHybridExplainer";
+      if (index === 1 || sectionType === "context") return "ThreeTechExplainer";
+      if (index === 2 || sectionType === "main") return "ThreeAlgorithmViz";
+      if (index === 3 || sectionType === "analysis") return "ThreeDataViz";
+      return "ThreeProductShowcase";
+    }
+
     if (index === total - 1 || sectionType === "cta") {
       return "OutroScene";
     }
@@ -168,6 +177,66 @@ export class StoryboardEngine {
           points: research.facts.slice(0, 3),
           highlightText: sectionText,
           accentColor: "#38bdf8",
+        };
+
+      case "ThreeCinematicIntro":
+        return {
+          hookTitle: research.title || "3D MOTION",
+          hookSubtitle: sectionText,
+          accentColor: "#38bdf8",
+        };
+
+      case "ThreeTechExplainer":
+        return {
+          title: research.title || "Kiến Trúc AI 3D",
+          subtitle: sectionText,
+          nodeLabels: research.facts.slice(0, 6),
+        };
+
+      case "ThreeProductShowcase":
+        return {
+          productName: research.specs["Repository"] || research.title || "AI Tool 3D",
+          tagline: sectionText,
+          features: research.facts.slice(0, 3),
+          heroColor: "#38bdf8",
+        };
+
+      case "ThreeAlgorithmViz":
+        return {
+          algorithm: "binary-search",
+          target: 23,
+          array: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91],
+        };
+
+      case "ThreeDataViz":
+        return {
+          title: "Đánh Giá Chỉ Số 3D",
+          subtitle: sectionText,
+          data: [
+            { label: "Mô hình A", value: 88, color: "#10A37F" },
+            { label: "Mô hình B", value: 92, color: "#F59E0B" },
+            { label: "Mô hình C", value: 96, color: "#38BDF8" },
+          ],
+        };
+
+      case "ThreeHybridExplainer":
+        return {
+          title: "Tổng Kết 3D Motion",
+          subtitle: sectionText,
+        };
+
+      case "ThreeParticleVFX":
+        return {
+          title: research.title || "Particle VFX",
+          subtitle: sectionText,
+          preset: "wave",
+          particleConfig: {
+            preset: "wave",
+            color: "#38BDF8",
+            secondaryColor: "#A855F7",
+            particleCount: 4000,
+            quality: "standard",
+          },
         };
 
       case "OutroScene":

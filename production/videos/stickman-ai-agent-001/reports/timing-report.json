@@ -1,0 +1,23 @@
+{
+  "projectId": "stickman-ai-agent-001",
+  "fps": 30,
+  "totalFrames": 4772,
+  "totalDurationSeconds": 159.04,
+  "voiceId": "quangminh",
+  "timeline": [
+    { "scene": "S01", "startFrame": 0, "endFrame": 349, "durationFrames": 350, "durationSec": 11.68 },
+    { "scene": "S02", "startFrame": 350, "endFrame": 683, "durationFrames": 334, "durationSec": 11.12 },
+    { "scene": "S03", "startFrame": 684, "endFrame": 976, "durationFrames": 293, "durationSec": 9.76 },
+    { "scene": "S04", "startFrame": 977, "endFrame": 1283, "durationFrames": 307, "durationSec": 10.24 },
+    { "scene": "S05", "startFrame": 1284, "endFrame": 1667, "durationFrames": 384, "durationSec": 12.80 },
+    { "scene": "S06", "startFrame": 1668, "endFrame": 2022, "durationFrames": 355, "durationSec": 11.84 },
+    { "scene": "S07", "startFrame": 2023, "endFrame": 2394, "durationFrames": 372, "durationSec": 12.40 },
+    { "scene": "S08", "startFrame": 2395, "endFrame": 2759, "durationFrames": 365, "durationSec": 12.16 },
+    { "scene": "S09", "startFrame": 2760, "endFrame": 3109, "durationFrames": 350, "durationSec": 11.68 },
+    { "scene": "S10", "startFrame": 3110, "endFrame": 3431, "durationFrames": 322, "durationSec": 10.72 },
+    { "scene": "S11", "startFrame": 3432, "endFrame": 3767, "durationFrames": 336, "durationSec": 11.20 },
+    { "scene": "S12", "startFrame": 3768, "endFrame": 4101, "durationFrames": 334, "durationSec": 11.12 },
+    { "scene": "S13", "startFrame": 4102, "endFrame": 4495, "durationFrames": 394, "durationSec": 13.12 },
+    { "scene": "S14", "startFrame": 4496, "endFrame": 4771, "durationFrames": 276, "durationSec": 9.20 }
+  ]
+}

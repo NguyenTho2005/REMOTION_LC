@@ -1,0 +1,12 @@
+{
+  "asset_id": "94981072-4b95-4fe9-8dda-ad2db71fb375",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Một thành phần rất quan trọng là Tool Calling. AI Agent có thể sử dụng những công cụ được cấp quyền như trình duyệt, hệ thống tệp, cơ sở dữ liệu hoặc API. Nhờ đó, nó không chỉ tạo ra văn bản mà còn có thể tương tác với phần mềm bên ngoài.",
+  "file_name": "94981072-4b95-4fe9-8dda-ad2db71fb375.wav",
+  "audio_url": "/audio/generated/94981072-4b95-4fe9-8dda-ad2db71fb375.wav",
+  "duration": 11.84,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T21:12:01.884618+00:00",
+  "status": "completed"
+}

@@ -1,0 +1,32 @@
+{
+  "topic": "AI Agent là gì và tại sao nó có thể thay đổi cách chúng ta làm việc?",
+  "category": "stickman-explainer",
+  "keyConcepts": [
+    {
+      "concept": "Traditional Chatbot vs. AI Agent",
+      "explanation": "Chatbot chỉ phản hồi thụ động từng prompt văn bản (Request/Response), trong khi AI Agent chủ động tiếp nhận mục tiêu cấp cao (Goal), tự lập kế hoạch (Planning), lựa chọn công cụ phù hợp (Tool Use) và tự động thực thi chuỗi hành động khép kín."
+    },
+    {
+      "concept": "5-Step Agent Loop",
+      "explanation": "1. Goal Input -> 2. Reasoning & Decomposition -> 3. Tool Selection -> 4. Action Execution -> 5. Self-Evaluation & Reflection (ReAct framework)."
+    },
+    {
+      "concept": "Tool Calling (Function Calling)",
+      "explanation": "Cơ chế giao tiếp qua schema có cấu trúc (JSON schema) cho phép LLM gọi API ngoài, truy vấn cơ sở dữ liệu, đọc/ghi tệp tin, và điều khiển trình duyệt headless."
+    },
+    {
+      "concept": "Memory Systems",
+      "explanation": "Short-term context (in-context buffer) kết hợp Long-term memory (Vector Store, Semantic search, User profile graph) để duy trì tính nhất quán qua các phiên làm việc."
+    },
+    {
+      "concept": "Multi-Agent Collaboration",
+      "explanation": "Phân chia chuyên môn hóa: một Agent quản lý (Orchestrator/Planner) điều phối các Agent chuyên trách (Researcher, Coder, Reviewer) trao đổi thông điệp bất đồng bộ."
+    },
+    {
+      "concept": "Safety & Human-in-the-Loop",
+      "explanation": "Cần cơ chế guardrails, quyền phê duyệt các thao tác rủi ro cao (gửi email, xóa dữ liệu, thanh toán) nhằm ngăn ngừa hậu quả khi mô hình bị ảo giác."
+    }
+  ],
+  "targetAudience": "Người làm văn phòng, lập trình viên, nhà quản lý, sinh viên công nghệ muốn hiểu bản chất AI Agent theo cách trực quan, gần gũi.",
+  "visualLanguage": "Stickman Whiteboard Explainer: Nhân vật que đen tối giản, biểu cảm linh hoạt, kết hợp Robot cộng sự điện tử màu Cyan/Blue để làm nổi bật sự hợp tác Người - Máy."
+}

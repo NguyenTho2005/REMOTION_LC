@@ -1,0 +1,147 @@
+{
+  "projectId": "chatgpt-codex-limits",
+  "projectTitle": "OpenAI ChatGPT & Codex Usage Limits Explainer",
+  "topic": "OpenAI công bố kế hoạch dùng chung hạn mức ChatGPT và Codex từ tháng 12/2026",
+  "sourceUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+  "status": "PASSED",
+  "timestamp": "2026-11-08T06:02:15Z",
+  "qaInspector": "Antigravity Creative Director & Remotion QA Agent",
+  "technicalSpecifications": {
+    "resolution": {
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16"
+    },
+    "fps": 30,
+    "totalFrames": 1773,
+    "durationSeconds": 59.115,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "fileSizeBytes": 5015790,
+    "fileSizeMB": 4.78
+  },
+  "contentIntegrityCheck": {
+    "officialSourceVerification": "PASSED",
+    "articleId": "20001625",
+    "keyFactsVerified": [
+      "Kế hoạch áp dụng dùng chung hạn mức cho gói Plus, Pro và Business",
+      "Mức sử dụng đo lường bằng Token động thay vì số lượng tin nhắn cố định",
+      "Model càng mạnh và tác vụ càng nặng tiêu hao token càng nhanh",
+      "ChatGPT Instant là ngoại lệ: HOÀN TOÀN KHÔNG TRỪ vào hạn mức chung",
+      "Theo dõi số dư và thời gian reset tại Settings > mục Usage",
+      "Khi chạm ngưỡng: Chờ reset chu kỳ, nâng cấp gói, hoặc mua thêm credit cho tính năng hợp lệ",
+      "Nhấn mạnh rõ: Đây là kế hoạch công bố cho tháng 12, chưa áp dụng đồng loạt ngay lúc này"
+    ],
+    "noFabricatedFacts": "PASSED - Không bịa đặt hạn mức cụ thể, số token cố định hay tỷ lệ quy đổi sai sự thật",
+    "noPlaceholderCode": "PASSED - Mọi scene đều được render bằng Remotion TSX thật, animation frame-driven thuần túy"
+  },
+  "voiceAndAlignment": {
+    "ttsProvider": "ZeroTTS (Local ONNX Runtime)",
+    "voiceId": "quangminh",
+    "voiceProfile": "Nam, trẻ, tin tức công nghệ, rõ ràng, dứt khoát",
+    "speechAlignmentTool": "Acoustic Energy RMS + VAD + Syllable Phonetic Weighting + Spectral Valley Snapping",
+    "isEvenWordDivision": false,
+    "wordSyncAccuracy": "PASSED - Căn chỉnh chính xác theo sóng âm WAV thực tế của từng scene",
+    "karaokeSubtitles": {
+      "status": "PASSED",
+      "twoLineMax": true,
+      "mobileReadableFont": true,
+      "safeAreaCompliant": true,
+      "highlightColor": "#38BDF8 / #0F766E"
+    }
+  },
+  "visualQualityAndTikTokSafeZone": {
+    "safeZoneTop": "150px (Avoid TikTok header icons) - PASSED",
+    "safeZoneBottom": "280px (Avoid TikTok caption & sound title) - PASSED",
+    "safeZoneRight": "120px (Avoid interaction icons) - PASSED",
+    "visualDiversity": "PASSED - 9 phân cảnh sở hữu bố cục, infographic và motion riêng biệt",
+    "editorialStyle": "PASSED - Xen kẽ Dark (#0B0F19) và Light (#F8F9FA) có chủ đích kể chuyện",
+    "antiAiSlop": "PASSED - Sử dụng vector line art, clean UI mockup, kinetic typography; không lạm dụng hạt particle hay glow màu mè"
+  },
+  "sceneAudit": [
+    {
+      "sceneId": "S01",
+      "title": "Hook: ChatGPT & Codex song hành",
+      "frames": 181,
+      "durationSec": 6.033,
+      "audioDurationSec": 5.36,
+      "wordsCount": 18,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S02",
+      "title": "Announcement: Timeline Tháng 12/2026",
+      "frames": 255,
+      "durationSec": 8.5,
+      "audioDurationSec": 7.76,
+      "wordsCount": 21,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S03",
+      "title": "Shared Limit: Cơ chế cũ riêng biệt",
+      "frames": 141,
+      "durationSec": 4.7,
+      "audioDurationSec": 4.08,
+      "wordsCount": 15,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S04",
+      "title": "Token Usage: Bể hạn mức chung",
+      "frames": 129,
+      "durationSec": 4.3,
+      "audioDurationSec": 3.68,
+      "wordsCount": 16,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S05",
+      "title": "Task Complexity: Model mạnh & Tác vụ nặng",
+      "frames": 219,
+      "durationSec": 7.3,
+      "audioDurationSec": 6.56,
+      "wordsCount": 24,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S06",
+      "title": "Instant Exception: ChatGPT Instant không trừ",
+      "frames": 181,
+      "durationSec": 6.033,
+      "audioDurationSec": 5.36,
+      "wordsCount": 18,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S07",
+      "title": "Usage Dashboard: Giao diện kiểm tra Settings",
+      "frames": 143,
+      "durationSec": 4.767,
+      "audioDurationSec": 4.16,
+      "wordsCount": 16,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S08",
+      "title": "Reaching Limits: Cây quyết định 3 lựa chọn",
+      "frames": 167,
+      "durationSec": 5.567,
+      "audioDurationSec": 4.88,
+      "wordsCount": 19,
+      "status": "PASSED"
+    },
+    {
+      "sceneId": "S09",
+      "title": "Closing: Lưu ý & Lời khuyên Developer",
+      "frames": 357,
+      "durationSec": 11.9,
+      "audioDurationSec": 10.96,
+      "wordsCount": 40,
+      "status": "PASSED"
+    }
+  ],
+  "finalVerdict": "PASSED — SẴN SÀNG XUẤT BẢN TIKTOK"
+}

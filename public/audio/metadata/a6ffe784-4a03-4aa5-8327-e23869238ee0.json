@@ -1,0 +1,12 @@
+{
+  "asset_id": "a6ffe784-4a03-4aa5-8327-e23869238ee0",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Cấp độ một: Chatbot. Ở cấp độ này, chúng ta đặt câu hỏi và AI trả lời. Nó rất thông minh về mặt ngôn ngữ, nhưng hoàn toàn thụ động. Bạn phải tự làm mọi thao tác từ mở file, gửi email đến chạy lệnh.",
+  "file_name": "a6ffe784-4a03-4aa5-8327-e23869238ee0.wav",
+  "audio_url": "/audio/generated/a6ffe784-4a03-4aa5-8327-e23869238ee0.wav",
+  "duration": 10.8,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T22:30:15.791477+00:00",
+  "status": "completed"
+}

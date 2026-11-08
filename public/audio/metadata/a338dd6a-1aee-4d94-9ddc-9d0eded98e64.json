@@ -1,0 +1,12 @@
+{
+  "asset_id": "a338dd6a-1aee-4d94-9ddc-9d0eded98e64",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Thông thường, khi sử dụng AI chatbot, chúng ta đặt câu hỏi và nhận câu trả lời. Muốn làm việc tiếp theo, chúng ta lại phải nhập yêu cầu mới. AI chủ yếu phản hồi những gì được yêu cầu, chứ không tự động thực hiện toàn bộ quy trình thay chúng ta.",
+  "file_name": "a338dd6a-1aee-4d94-9ddc-9d0eded98e64.wav",
+  "audio_url": "/audio/generated/a338dd6a-1aee-4d94-9ddc-9d0eded98e64.wav",
+  "duration": 11.12,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T21:11:03.122790+00:00",
+  "status": "completed"
+}

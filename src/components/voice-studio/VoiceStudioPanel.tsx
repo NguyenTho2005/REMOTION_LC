@@ -5,6 +5,8 @@ import { ScriptEditor } from "./ScriptEditor";
 import { AudioPreview } from "./AudioPreview";
 import { GeneratedAudioList } from "./GeneratedAudioList";
 import { AIVideoStudioTab } from "./AIVideoStudioTab";
+import { Motion3DStudioTab } from "./Motion3DStudioTab";
+import { ParticleVFXStudioTab } from "./ParticleVFXStudioTab";
 
 interface VoiceStudioPanelProps {
   isDocked?: boolean;
@@ -15,7 +17,7 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
   isDocked = true,
   onClose,
 }) => {
-  const [activeTab, setActiveTab] = useState<"ai-video" | "studio" | "library">("ai-video");
+  const [activeTab, setActiveTab] = useState<"ai-video" | "3d-motion" | "particle-vfx" | "studio" | "library">("ai-video");
 
   const {
     isBackendHealthy,
@@ -184,6 +186,40 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
         </button>
         <button
           type="button"
+          onClick={() => setActiveTab("3d-motion")}
+          style={{
+            flex: 1,
+            padding: "10px 4px",
+            fontSize: "11px",
+            fontWeight: 700,
+            color: activeTab === "3d-motion" ? "#38bdf8" : "#9ca3af",
+            borderBottom: activeTab === "3d-motion" ? "2px solid #38bdf8" : "2px solid transparent",
+            backgroundColor: "transparent",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          🧊 3D
+        </button>
+        <button
+          type="button"
+          onClick={() => setActiveTab("particle-vfx")}
+          style={{
+            flex: 1,
+            padding: "10px 4px",
+            fontSize: "11px",
+            fontWeight: 700,
+            color: activeTab === "particle-vfx" ? "#ec4899" : "#9ca3af",
+            borderBottom: activeTab === "particle-vfx" ? "2px solid #ec4899" : "2px solid transparent",
+            backgroundColor: "transparent",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          ✨ VFX Hạt
+        </button>
+        <button
+          type="button"
           onClick={() => setActiveTab("studio")}
           style={{
             flex: 1,
@@ -250,6 +286,10 @@ export const VoiceStudioPanel: React.FC<VoiceStudioPanelProps> = ({
 
         {activeTab === "ai-video" ? (
           <AIVideoStudioTab onPlayAudio={playAudio} />
+        ) : activeTab === "3d-motion" ? (
+          <Motion3DStudioTab />
+        ) : activeTab === "particle-vfx" ? (
+          <ParticleVFXStudioTab />
         ) : activeTab === "studio" ? (
           <>
             {/* 1. Voice Picker */}

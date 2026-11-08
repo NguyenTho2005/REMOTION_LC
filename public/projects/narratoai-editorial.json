@@ -1,0 +1,272 @@
+{
+  "projectTitle": "NarratoAI: Tự Động Hoá Video Bằng AI",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalDurationInSeconds": 65.33,
+  "totalDurationInFrames": 1960,
+  "theme": {
+    "background": "#F4F1EA",
+    "inkColor": "#1E1E1C",
+    "fontHeading": "'Caveat', 'Instrument Serif', cursive, serif",
+    "fontBody": "'JetBrains Mono', 'Be Vietnam Pro', monospace, sans-serif"
+  },
+  "scenes": [
+    {
+      "sceneId": "scene_01",
+      "sceneIndex": 0,
+      "voiceoverText": "Bạn có tin một dự án mã nguồn mở có thể tự động xem video, viết kịch bản và dựng thành phim hoàn chỉnh chỉ sau vài phút? Đây chính là NarratoAI.",
+      "audioFilePath": "/audio/narratoai/scene_01.wav",
+      "durationInSeconds": 8,
+      "durationInFrames": 240,
+      "startFrameGlobal": 0,
+      "visualSpec": {
+        "type": "kinetic_sketch_text",
+        "title": "NarratoAI: Tự Động Hoá Video",
+        "svgConceptDescription": "Hand-drawn vintage film reel and AI lightning spark with bold editorial title and red son (#D94E34) marker underline.",
+        "accentColor": "#D94E34",
+        "triggerAtFrameOffset": 15
+      },
+      "captions": [
+        {
+          "id": "s1_c1",
+          "text": "Bạn có tin một dự án mã nguồn mở có thể tự động xem video,",
+          "startSec": 0.33,
+          "endSec": 3.66,
+          "startFrame": 10,
+          "endFrame": 110,
+          "highlightWords": [
+            "mã nguồn mở",
+            "tự động xem video"
+          ]
+        },
+        {
+          "id": "s1_c2",
+          "text": "viết kịch bản và dựng thành phim hoàn chỉnh chỉ sau vài phút? Đây chính là NarratoAI.",
+          "startSec": 3.66,
+          "endSec": 7.5,
+          "startFrame": 110,
+          "endFrame": 225,
+          "highlightWords": [
+            "viết kịch bản",
+            "dựng thành phim",
+            "NarratoAI"
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "scene_02",
+      "sceneIndex": 1,
+      "voiceoverText": "Trước đây, làm một video tóm tắt phim mất từ bốn đến sáu tiếng: chọn cảnh, viết kịch bản, thu âm rồi khớp phụ đề. NarratoAI giải quyết toàn bộ quy trình đó hoàn toàn tự động.",
+      "audioFilePath": "/audio/narratoai/scene_02.wav",
+      "durationInSeconds": 10,
+      "durationInFrames": 300,
+      "startFrameGlobal": 240,
+      "visualSpec": {
+        "type": "split_comparison",
+        "title": "Thủ Công 6 Tiếng vs NarratoAI 3 Phút",
+        "svgConceptDescription": "Hand-sketched split column: tangled messy editing timeline with red strike-through vs clean 3-step automated pipeline with teal checkmark.",
+        "accentColor": "#D94E34",
+        "triggerAtFrameOffset": 15
+      },
+      "captions": [
+        {
+          "id": "s2_c1",
+          "text": "Trước đây, làm một video tóm tắt phim mất từ bốn đến sáu tiếng: chọn cảnh, viết kịch bản,",
+          "startSec": 0.33,
+          "endSec": 5,
+          "startFrame": 10,
+          "endFrame": 150,
+          "highlightWords": [
+            "bốn đến sáu tiếng",
+            "chọn cảnh"
+          ]
+        },
+        {
+          "id": "s2_c2",
+          "text": "thu âm rồi khớp phụ đề. NarratoAI giải quyết toàn bộ quy trình đó hoàn toàn tự động.",
+          "startSec": 5,
+          "endSec": 9.33,
+          "startFrame": 150,
+          "endFrame": 280,
+          "highlightWords": [
+            "khớp phụ đề",
+            "hoàn toàn tự động"
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "scene_03",
+      "sceneIndex": 2,
+      "voiceoverText": "Đầu tiên, hệ thống đưa các khung hình video vào mô hình thị giác như Qwen-VL hay GPT-4o để nhận diện hành động nhân vật. Sau đó, LLM sẽ tự động viết kịch bản dẫn chuyện lôi cuốn theo đúng mạch phim.",
+      "audioFilePath": "/audio/narratoai/scene_03.wav",
+      "durationInSeconds": 12,
+      "durationInFrames": 360,
+      "startFrameGlobal": 540,
+      "visualSpec": {
+        "type": "diagram_zoom_pan",
+        "title": "Thị Giác Qwen-VL & Kịch Bản LLM",
+        "svgConceptDescription": "Hand-drawn multi-tier vision analysis: camera frame sampling into Qwen-VL / GPT-4o vision brain with thought bubble generating structured script draft.",
+        "accentColor": "#2B5B6C",
+        "triggerAtFrameOffset": 15
+      },
+      "captions": [
+        {
+          "id": "s3_c1",
+          "text": "Đầu tiên, hệ thống đưa các khung hình video vào mô hình thị giác như Qwen-VL hay GPT-4o",
+          "startSec": 0.33,
+          "endSec": 6,
+          "startFrame": 10,
+          "endFrame": 180,
+          "highlightWords": [
+            "mô hình thị giác",
+            "Qwen-VL",
+            "GPT-4o"
+          ]
+        },
+        {
+          "id": "s3_c2",
+          "text": "để nhận diện hành động nhân vật. Sau đó, LLM sẽ tự động viết kịch bản dẫn chuyện lôi cuốn.",
+          "startSec": 6,
+          "endSec": 11.33,
+          "startFrame": 180,
+          "endFrame": 340,
+          "highlightWords": [
+            "nhận diện hành động",
+            "tự động viết kịch bản"
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "scene_04",
+      "sceneIndex": 3,
+      "voiceoverText": "Tiếp theo, kịch bản được chuyển thành giọng đọc truyền cảm nhờ tích hợp các engine giọng nói hiện đại như ZeroTTS. Điểm đặc biệt là hệ thống tự trích xuất timestamp để khớp chính xác từng mili-giây với hình ảnh.",
+      "audioFilePath": "/audio/narratoai/scene_04.wav",
+      "durationInSeconds": 11.33,
+      "durationInFrames": 340,
+      "startFrameGlobal": 900,
+      "visualSpec": {
+        "type": "rough_flowchart",
+        "title": "ZeroTTS Voice & Đồng Bộ Timestamp",
+        "svgConceptDescription": "Rough flowchart: Script text box -> ZeroTTS acoustic synthesizer node -> Millisecond timestamp parser -> Audio waveform and subtitle tracks.",
+        "accentColor": "#E5A93C",
+        "triggerAtFrameOffset": 15
+      },
+      "captions": [
+        {
+          "id": "s4_c1",
+          "text": "Tiếp theo, kịch bản được chuyển thành giọng đọc truyền cảm nhờ tích hợp engine ZeroTTS.",
+          "startSec": 0.33,
+          "endSec": 5.66,
+          "startFrame": 10,
+          "endFrame": 170,
+          "highlightWords": [
+            "giọng đọc truyền cảm",
+            "ZeroTTS"
+          ]
+        },
+        {
+          "id": "s4_c2",
+          "text": "Điểm đặc biệt là hệ thống tự trích xuất timestamp để khớp chính xác từng mili-giây.",
+          "startSec": 5.66,
+          "endSec": 10.66,
+          "startFrame": 170,
+          "endFrame": 320,
+          "highlightWords": [
+            "trích xuất timestamp",
+            "từng mili-giây"
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "scene_05",
+      "sceneIndex": 4,
+      "voiceoverText": "Về mặt kỹ thuật, NarratoAI sử dụng Python và MoviePy để dựng thành phẩm, đi kèm WebUI Streamlit trực quan. Thậm chí bạn có thể xuất thẳng file nháp CapCut để tiếp tục hậu kỳ nâng cao.",
+      "audioFilePath": "/audio/narratoai/scene_05.wav",
+      "durationInSeconds": 11,
+      "durationInFrames": 330,
+      "startFrameGlobal": 1240,
+      "visualSpec": {
+        "type": "diagram_zoom_pan",
+        "title": "Kiến Trúc Kỹ Thuật & Xuất CapCut Draft",
+        "svgConceptDescription": "Hand-drawn architectural diagram showing Streamlit WebUI layer, Python/MoviePy rendering engine, and CapCut / Jianying project file exporter.",
+        "accentColor": "#2B5B6C",
+        "triggerAtFrameOffset": 15
+      },
+      "captions": [
+        {
+          "id": "s5_c1",
+          "text": "Về mặt kỹ thuật, NarratoAI sử dụng Python và MoviePy để dựng thành phẩm, đi kèm WebUI Streamlit.",
+          "startSec": 0.33,
+          "endSec": 5.66,
+          "startFrame": 10,
+          "endFrame": 170,
+          "highlightWords": [
+            "Python",
+            "MoviePy",
+            "Streamlit"
+          ]
+        },
+        {
+          "id": "s5_c2",
+          "text": "Thậm chí bạn có thể xuất thẳng file nháp CapCut để tiếp tục hậu kỳ nâng cao.",
+          "startSec": 5.66,
+          "endSec": 10.33,
+          "startFrame": 170,
+          "endFrame": 310,
+          "highlightWords": [
+            "file nháp CapCut",
+            "hậu kỳ nâng cao"
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "scene_06",
+      "sceneIndex": 5,
+      "voiceoverText": "Một dự án mã nguồn mở cực kỳ tiềm năng cho các nhà sáng tạo nội dung số. Tìm kiếm linyqh gạch chéo NarratoAI trên GitHub để thử nghiệm ngay hôm nay. Bấm theo dõi để cập nhật thêm nhiều công cụ AI đột phá!",
+      "audioFilePath": "/audio/narratoai/scene_06.wav",
+      "durationInSeconds": 13,
+      "durationInFrames": 390,
+      "startFrameGlobal": 1570,
+      "visualSpec": {
+        "type": "kinetic_sketch_text",
+        "title": "GitHub: linyqh/NarratoAI",
+        "svgConceptDescription": "Hand-sketched GitHub badge with star counter, editorial verification stamp, animated Follow bookmark button, and subscribe bell.",
+        "accentColor": "#D94E34",
+        "triggerAtFrameOffset": 15
+      },
+      "captions": [
+        {
+          "id": "s6_c1",
+          "text": "Một dự án mã nguồn mở cực kỳ tiềm năng. Tìm kiếm linyqh gạch chéo NarratoAI trên GitHub để thử nghiệm ngay!",
+          "startSec": 0.33,
+          "endSec": 6.66,
+          "startFrame": 10,
+          "endFrame": 200,
+          "highlightWords": [
+            "mã nguồn mở",
+            "linyqh/NarratoAI",
+            "GitHub"
+          ]
+        },
+        {
+          "id": "s6_c2",
+          "text": "Bấm theo dõi để cập nhật thêm nhiều công cụ AI và giải pháp tự động hoá đột phá!",
+          "startSec": 6.66,
+          "endSec": 12.33,
+          "startFrame": 200,
+          "endFrame": 370,
+          "highlightWords": [
+            "theo dõi",
+            "tự động hoá đột phá"
+          ]
+        }
+      ]
+    }
+  ]
+}

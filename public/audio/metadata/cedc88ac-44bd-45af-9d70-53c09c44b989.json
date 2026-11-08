@@ -1,0 +1,12 @@
+{
+  "asset_id": "cedc88ac-44bd-45af-9d70-53c09c44b989",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Ví dụ, bạn yêu cầu Agent nghiên cứu một chủ đề và tạo báo cáo. Thay vì chỉ đưa ra vài gợi ý, Agent có thể tìm kiếm thông tin, đọc tài liệu, tổng hợp nội dung, tạo bản báo cáo và lưu kết quả vào một tệp. Tất nhiên, những thao tác quan trọng vẫn cần được kiểm tra.",
+  "file_name": "cedc88ac-44bd-45af-9d70-53c09c44b989.wav",
+  "audio_url": "/audio/generated/cedc88ac-44bd-45af-9d70-53c09c44b989.wav",
+  "duration": 12.8,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T21:11:46.359126+00:00",
+  "status": "completed"
+}

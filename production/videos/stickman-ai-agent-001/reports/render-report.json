@@ -1,0 +1,17 @@
+{
+  "compositionId": "AIAgentMotionGraphicsExplainer",
+  "style": "Modern Minimalist Technology Motion Graphics",
+  "outputFile": "production/videos/stickman-ai-agent-001/output/ai-agent-motion-graphics-explainer.mp4",
+  "overallPassed": true,
+  "qaScore": 100,
+  "metadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 159.083,
+    "hasAudio": true,
+    "audioChannels": 2,
+    "fileSizeBytes": 24539626
+  },
+  "timestamp": "2026-11-07T21:43:21.032Z"
+}

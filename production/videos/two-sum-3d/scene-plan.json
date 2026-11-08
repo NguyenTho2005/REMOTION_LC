@@ -1,0 +1,81 @@
+{
+  "title": "Two Sum 3D Algorithm Explainer",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalFrames": 2922,
+  "totalDurationSeconds": 97.4,
+  "voice": "quangminh",
+  "scenes": [
+    {
+      "sceneId": "scene01",
+      "name": "Hook",
+      "startFrame": 0,
+      "durationInFrames": 234,
+      "durationSec": 7.8
+    },
+    {
+      "sceneId": "scene02",
+      "name": "Problem",
+      "startFrame": 234,
+      "durationInFrames": 320,
+      "durationSec": 10.67
+    },
+    {
+      "sceneId": "scene03",
+      "name": "BruteForce",
+      "startFrame": 554,
+      "durationInFrames": 260,
+      "durationSec": 8.67
+    },
+    {
+      "sceneId": "scene04",
+      "name": "Complexity",
+      "startFrame": 814,
+      "durationInFrames": 265,
+      "durationSec": 8.83
+    },
+    {
+      "sceneId": "scene05",
+      "name": "HashMap",
+      "startFrame": 1079,
+      "durationInFrames": 270,
+      "durationSec": 9.0
+    },
+    {
+      "sceneId": "scene06",
+      "name": "Complement",
+      "startFrame": 1349,
+      "durationInFrames": 402,
+      "durationSec": 13.4
+    },
+    {
+      "sceneId": "scene07",
+      "name": "Match",
+      "startFrame": 1751,
+      "durationInFrames": 272,
+      "durationSec": 9.07
+    },
+    {
+      "sceneId": "scene08",
+      "name": "Mistakes",
+      "startFrame": 2023,
+      "durationInFrames": 330,
+      "durationSec": 11.0
+    },
+    {
+      "sceneId": "scene09",
+      "name": "Comparison",
+      "startFrame": 2353,
+      "durationInFrames": 337,
+      "durationSec": 11.23
+    },
+    {
+      "sceneId": "scene10",
+      "name": "Outro",
+      "startFrame": 2690,
+      "durationInFrames": 232,
+      "durationSec": 7.73
+    }
+  ]
+}

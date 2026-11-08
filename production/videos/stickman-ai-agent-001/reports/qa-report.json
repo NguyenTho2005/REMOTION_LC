@@ -1,0 +1,47 @@
+{
+  "videoId": "stickman-ai-agent-001",
+  "overallPassed": true,
+  "score": 100,
+  "checks": [
+    {
+      "name": "File Integrity",
+      "passed": true,
+      "details": "File size: 23.40 MB",
+      "score": 100
+    },
+    {
+      "name": "Resolution & Aspect Ratio (9:16)",
+      "passed": true,
+      "details": "Resolution verified: 1080x1920 (9:16 vertical)",
+      "score": 100
+    },
+    {
+      "name": "Audio Stream Presence",
+      "passed": true,
+      "details": "Audio stream detected (2 channels)",
+      "score": 100
+    },
+    {
+      "name": "Frame Rate (30 FPS)",
+      "passed": true,
+      "details": "Frame rate verified: 30 FPS",
+      "score": 100
+    },
+    {
+      "name": "Duration Alignment",
+      "passed": true,
+      "details": "Duration: 159.08s (Target: 159.04s, diff: 0.04s)",
+      "score": 100
+    }
+  ],
+  "mediaMetadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 159.083,
+    "hasAudio": true,
+    "audioChannels": 2,
+    "fileSizeBytes": 24539626
+  },
+  "timestamp": "2026-11-07T21:43:21.030Z"
+}

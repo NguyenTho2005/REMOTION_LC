@@ -19,7 +19,14 @@
         "RepositoryCard",
         "CodeShowcase",
         "TerminalAnimation",
-        "OutroScene"
+        "OutroScene",
+        "ThreeTechExplainer",
+        "ThreeProductShowcase",
+        "ThreeAlgorithmViz",
+        "ThreeDataViz",
+        "ThreeCinematicIntro",
+        "ThreeHybridExplainer",
+        "ThreeParticleVFX"
       ]
     },
     "startFrame": { "type": "integer", "minimum": 0 },

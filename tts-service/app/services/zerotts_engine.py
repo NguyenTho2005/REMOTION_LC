@@ -100,13 +100,17 @@ class ZeroTTSEngine:
             self._is_loading = True
             try:
                 from zerotts import ZeroTTS
-                logger.info(f"Loading ZeroTTS model ({settings.MODEL_ID})...")
-                # Load with local_files_only first, fallback to standard if not found
-                try:
-                    self._model = ZeroTTS.from_pretrained(settings.MODEL_ID, local_files_only=True)
-                except Exception as ex:
-                    logger.warning(f"Local files only failed ({ex}), downloading model...")
-                    self._model = ZeroTTS.from_pretrained(settings.MODEL_ID)
+                local_model_path = Path(__file__).resolve().parent.parent.parent / "models" / "zerotts"
+                if local_model_path.exists():
+                    logger.info(f"Loading ZeroTTS model from local path ({local_model_path})...")
+                    self._model = ZeroTTS(str(local_model_path))
+                else:
+                    logger.info(f"Loading ZeroTTS model ({settings.MODEL_ID})...")
+                    try:
+                        self._model = ZeroTTS.from_pretrained(settings.MODEL_ID, local_files_only=True)
+                    except Exception as ex:
+                        logger.warning(f"Local files only failed ({ex}), downloading model...")
+                        self._model = ZeroTTS.from_pretrained(settings.MODEL_ID)
 
                 self._build_voice_catalog()
                 self._model_ready = True

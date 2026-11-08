@@ -1,0 +1,12 @@
+{
+  "asset_id": "d1c39245-fc5f-4984-afb0-47c4fca13ccb",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Tuy nhiên, AI Agent không phải phép màu. Nó có thể hiểu sai yêu cầu, lựa chọn công cụ không phù hợp hoặc tạo ra kết quả thiếu chính xác. Nếu được cấp quyền quá rộng, một hành động sai cũng có thể gây ra hậu quả ngoài ý muốn.",
+  "file_name": "d1c39245-fc5f-4984-afb0-47c4fca13ccb.wav",
+  "audio_url": "/audio/generated/d1c39245-fc5f-4984-afb0-47c4fca13ccb.wav",
+  "duration": 10.72,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T21:13:04.937777+00:00",
+  "status": "completed"
+}

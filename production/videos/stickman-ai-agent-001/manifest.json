@@ -1,0 +1,25 @@
+{
+  "projectId": "stickman-ai-agent-001",
+  "title": "AI Agent là gì và tại sao nó có thể thay đổi cách chúng ta làm việc?",
+  "category": "technology-explainer",
+  "style": "Modern Minimalist Technology Motion Graphics (No Character / No Stickman)",
+  "platform": "TikTok (9:16 vertical, 1080x1920, 30 FPS)",
+  "compositionId": "AIAgentMotionGraphicsExplainer",
+  "voice": {
+    "provider": "ZeroTTS",
+    "voiceId": "quangminh",
+    "displayName": "Quang Minh",
+    "gender": "nam",
+    "sampleRate": 48000
+  },
+  "timing": {
+    "totalDurationSeconds": 159.04,
+    "totalFrames": 4772,
+    "fps": 30
+  },
+  "assetDirectories": {
+    "audio": "production/videos/stickman-ai-agent-001/audio",
+    "publicAudio": "public/audio/stickman",
+    "output": "production/videos/stickman-ai-agent-001/output"
+  }
+}

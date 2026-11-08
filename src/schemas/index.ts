@@ -9,6 +9,7 @@ export const VideoCategorySchema = z.enum([
   "ai-tool-review",
   "github-repo-review",
   "ai-explainer",
+  "3d-motion",
 ]);
 export type VideoCategory = z.infer<typeof VideoCategorySchema>;
 
@@ -36,6 +37,13 @@ export const SceneTemplateSchema = z.enum([
   "CodeShowcase",
   "TerminalAnimation",
   "OutroScene",
+  "ThreeTechExplainer",
+  "ThreeProductShowcase",
+  "ThreeAlgorithmViz",
+  "ThreeDataViz",
+  "ThreeCinematicIntro",
+  "ThreeHybridExplainer",
+  "ThreeParticleVFX",
 ]);
 export type SceneTemplate = z.infer<typeof SceneTemplateSchema>;
 

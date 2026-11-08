@@ -23,6 +23,17 @@ import { FeatureHighlight } from "./ai-explainer/FeatureHighlight";
 import { RepositoryCard } from "./repo-review/RepositoryCard";
 import { CodeShowcase } from "./repo-review/CodeShowcase";
 import { TerminalAnimation } from "./repo-review/TerminalAnimation";
+import {
+  Template01TechExplainer,
+  Template02ProductShowcase,
+  Template03AlgorithmViz,
+  Template04DataViz,
+  Template05CinematicIntro,
+  Template06HybridExplainer,
+} from "../three/templates";
+import { ParticleDispatcher } from "../three/particles/presets";
+import { ThreeCanvasContainer } from "../three/core/ThreeCanvasContainer";
+import type { AnyParticleConfig, ParticlePresetType } from "../three/particles/types";
 
 export interface TikTokCompositionProps {
   project?: VideoProject;
@@ -235,6 +246,94 @@ function renderSceneContent(
           durationInFrames={durationInFrames}
         />
       );
+
+    case "ThreeCinematicIntro":
+      return (
+        <Template05CinematicIntro
+          hookTitle={props.hookTitle ? String(props.hookTitle) : undefined}
+          hookSubtitle={props.hookSubtitle ? String(props.hookSubtitle) : undefined}
+          accentColor={props.accentColor ? String(props.accentColor) : undefined}
+          durationInFrames={durationInFrames}
+        />
+      );
+
+    case "ThreeTechExplainer":
+      return (
+        <Template01TechExplainer
+          title={props.title ? String(props.title) : undefined}
+          subtitle={props.subtitle ? String(props.subtitle) : undefined}
+          nodeLabels={props.nodeLabels as string[] | undefined}
+          durationInFrames={durationInFrames}
+        />
+      );
+
+    case "ThreeProductShowcase":
+      return (
+        <Template02ProductShowcase
+          productName={props.productName ? String(props.productName) : undefined}
+          tagline={props.tagline ? String(props.tagline) : undefined}
+          features={props.features as string[] | undefined}
+          heroColor={props.heroColor ? String(props.heroColor) : undefined}
+          durationInFrames={durationInFrames}
+        />
+      );
+
+    case "ThreeAlgorithmViz":
+      return (
+        <Template03AlgorithmViz
+          algorithm={props.algorithm as "binary-search" | "bubble-sort" | undefined}
+          target={typeof props.target === "number" ? props.target : undefined}
+          array={props.array as number[] | undefined}
+          durationInFrames={durationInFrames}
+        />
+      );
+
+    case "ThreeDataViz":
+      return (
+        <Template04DataViz
+          title={props.title ? String(props.title) : undefined}
+          subtitle={props.subtitle ? String(props.subtitle) : undefined}
+          data={props.data as Array<{ label: string; value: number; color?: string }> | undefined}
+          durationInFrames={durationInFrames}
+        />
+      );
+
+    case "ThreeHybridExplainer":
+      return (
+        <Template06HybridExplainer
+          title={props.title ? String(props.title) : undefined}
+          subtitle={props.subtitle ? String(props.subtitle) : undefined}
+          durationInFrames={durationInFrames}
+        />
+      );
+
+    case "ThreeParticleVFX": {
+      const presetName = (typeof props.preset === "string" ? props.preset : "wave") as ParticlePresetType;
+      const particleConfig: AnyParticleConfig = (props.particleConfig as AnyParticleConfig) || {
+        preset: presetName,
+        color: props.color ? String(props.color) : "#38BDF8",
+        secondaryColor: props.secondaryColor ? String(props.secondaryColor) : "#A855F7",
+        durationInFrames,
+      };
+
+      return (
+        <ThreeCanvasContainer
+          config={{
+            type: "3d-particle",
+            durationInFrames,
+            camera: { preset: "orbit", distance: 8, fov: 45, speed: 0.8 },
+            lighting: { preset: "cyberpunk" },
+            objects: [],
+            captionOverlay: {
+              title: props.title ? String(props.title) : undefined,
+              subtitle: props.subtitle ? String(props.subtitle) : undefined,
+            },
+          }}
+        >
+          <ParticleDispatcher config={particleConfig} />
+        </ThreeCanvasContainer>
+      );
+    }
 
     case "OutroScene":
     default:

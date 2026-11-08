@@ -1,0 +1,12 @@
+{
+  "asset_id": "0506f621-6523-429f-adae-7f9a11ac9fb0",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "AI Agent được phát triển để giải quyết một phần hạn chế đó. Thay vì chỉ trả lời câu hỏi, nó có thể tiếp nhận một mục tiêu, phân tích công việc, lập kế hoạch và sử dụng các công cụ phù hợp để hoàn thành nhiệm vụ.",
+  "file_name": "0506f621-6523-429f-adae-7f9a11ac9fb0.wav",
+  "audio_url": "/audio/generated/0506f621-6523-429f-adae-7f9a11ac9fb0.wav",
+  "duration": 9.76,
+  "sample_rate": 48000,
+  "created_at": "2026-11-07T21:11:15.796762+00:00",
+  "status": "completed"
+}
