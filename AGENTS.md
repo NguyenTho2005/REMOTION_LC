@@ -86,3 +86,22 @@ REMOTION-LC is an AI Video Production System specialized for Vietnamese technolo
 1. Never commit API secrets, `.env` files, or large model weights to git.
 2. Respect sandbox boundaries. Run commands sandboxed first (`BypassSandbox: false`); only elevate when network access is required.
 3. Do not execute arbitrary, unvalidated shell strings via the LLM. All system actions must pass through registered tools in `ToolRegistry`.
+
+---
+
+## 8. Motion Architecture, Skills & Style References
+
+Khi làm việc với motion graphics/animation đa tầng, shader, Lottie, hoặc style presets, **phải** tra cứu và tuân thủ tài liệu kiến trúc + adapter trước khi port mã:
+
+- **Kiến trúc motion đa tầng (bắt buộc):** [`docs/MOTION_ARCHITECTURE.md`](docs/MOTION_ARCHITECTURE.md)
+  - Bảng quy chuẩn chuyển đổi timing/shader/3D/Lottie (zero-clock-drift)
+  - Phân tầng cảnh: **Background** (WebGL/R3F shader) / **Midground** (3D, RoughJS, Lottie) / **Foreground** (UI, kinetic typography, captions)
+- **Adapter rules tham chiếu:** [`docs/MOTION_SKILLS_ADAPTER.md`](docs/MOTION_SKILLS_ADAPTER.md)
+- **bang-motion (camera/typography/kinetic timing principles):** `.agents/skills/bang-motion/`
+  - Đọc `README.md`, `references/architecture.md`, `references/techniques.md` khi cần ý tưởng nhịp/camera/anti-PPT
+  - Chỉ tham khảo concept; không copy runtime GSAP/RAF/renderAt vào Remotion
+- **mg-styles-15 (15 motion styles, GLSL/WebGL demos):** `docs/references/mg-styles-15/`
+  - Tra cứu demo/style tương ứng (ví dụ `demos/12-aurora-glass`, `demos/07-liquid`) để tái sử dụng logic visual/shader
+  - Port sang R3F + `@remotion/three` + `shaderMaterial` + clock Remotion
+
+**Nguyên tắc cốt lõi khi port:** `uTime = frame / fps` (deterministic), tweening qua `interpolate`/`spring`, không `requestAnimationFrame`/`gsap`/clock realtime, chuẩn 9:16 (1080x1920), shader/Lottie/animation đồng bộ frame.

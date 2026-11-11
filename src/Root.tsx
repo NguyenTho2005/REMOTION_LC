@@ -33,6 +33,11 @@ import {
   Responsive3DComposition16x9,
   Responsive3DComposition1x1,
 } from "./three/compositions/Responsive3DMultiAspectShowcase";
+import { AuroraGlassShowcaseComposition } from "./templates/AuroraGlassShowcase";
+import { MotionStylesShowcaseComposition } from "./three/compositions/MotionStylesShowcase";
+import { MotionLayeredShowcaseComposition } from "./three/compositions/MotionLayeredShowcase";
+import { BangMotionReviewComposition } from "./templates/BangMotionReview";
+import { NeuralNetworkStoryComposition } from "./templates/NeuralNetworkStory";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -66,6 +71,13 @@ export const RemotionRoot: React.FC = () => {
       <Responsive3DComposition9x16 />
       <Responsive3DComposition16x9 />
       <Responsive3DComposition1x1 />
+      {/* AURORA GLASS / LIQUID MOTION SHADER SHOWCASE */}
+      <AuroraGlassShowcaseComposition />
+      <MotionStylesShowcaseComposition />
+      <MotionLayeredShowcaseComposition />
+      <BangMotionReviewComposition />
+      {/* NEURAL NETWORK STORY: DOODLE SKETCH + KARAOKE SUBTITLE */}
+      <NeuralNetworkStoryComposition />
     </>
   );
 };

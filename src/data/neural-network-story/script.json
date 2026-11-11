@@ -1,0 +1,56 @@
+{
+  "title": "Bên trong mạng nơ-ron: Máy tính học như thế nào?",
+  "theme": "Visualizing Neural Networks & Backpropagation",
+  "style": "Hand-drawn Doodle / Chalkboard kết hợp Paper Cutout & Comic Karaoke",
+  "language": "vi",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSeconds": 25.84,
+  "durationInFrames": 776,
+  "voice": {
+    "provider": "ZeroTTS",
+    "voiceId": "quangminh",
+    "assetId": "62ba2504-e52e-4ab6-9eae-276fd3591be6",
+    "style": "hoạt hình vui tươi, giải thích công nghệ trực quan"
+  },
+  "scenes": [
+    {
+      "id": "scene-1-hook",
+      "title": "Hook - Con mèo hay con chó?",
+      "start_sec": 0,
+      "end_sec": 5.17,
+      "startFrame": 0,
+      "endFrame": 155,
+      "text": "Bạn có bao giờ tự hỏi: tại sao một cỗ máy vô tri lại phân biệt được đâu là con mèo, đâu là con chó?"
+    },
+    {
+      "id": "scene-2-input-layer",
+      "title": "Input & Layer - Băm nhỏ ảnh & Các lớp nơ-ron",
+      "start_sec": 5.17,
+      "end_sec": 12.92,
+      "startFrame": 155,
+      "endFrame": 388,
+      "text": "Thực ra nó không nhìn hình ảnh như mắt người. Nó băm nhỏ bức ảnh thành hàng triệu con số, rồi ném qua từng lớp mạng nơ-ron để cân đo đong đếm."
+    },
+    {
+      "id": "scene-3-backprop",
+      "title": "Trial & Error & Backpropagation - Sửa sai lội ngược dòng",
+      "start_sec": 12.92,
+      "end_sec": 21.09,
+      "startFrame": 388,
+      "endFrame": 633,
+      "text": "Lần đầu đoán sai, nó bị trừ điểm. Nó lập tức lội ngược dòng để chỉnh lại các trọng số nơ-ron. Sai hàng triệu lần như thế, nó bắt đầu đoán trúng phóc!"
+    },
+    {
+      "id": "scene-4-outro",
+      "title": "Conclusion & Outro - Học sâu & Kiên trì sửa sai",
+      "start_sec": 21.09,
+      "end_sec": 25.84,
+      "startFrame": 633,
+      "endFrame": 776,
+      "text": "Học sâu không có phép thuật, chỉ là kiên trì sửa sai ở tốc độ hàng tỷ phép tính mỗi giây. Follow kênh để khám phá bí mật máy học nhé!"
+    }
+  ],
+  "fullText": "Bạn có bao giờ tự hỏi: tại sao một cỗ máy vô tri lại phân biệt được đâu là con mèo, đâu là con chó? Thực ra nó không nhìn hình ảnh như mắt người. Nó băm nhỏ bức ảnh thành hàng triệu con số, rồi ném qua từng lớp mạng nơ-ron để cân đo đong đếm. Lần đầu đoán sai, nó bị trừ điểm. Nó lập tức lội ngược dòng để chỉnh lại các trọng số nơ-ron. Sai hàng triệu lần như thế, nó bắt đầu đoán trúng phóc! Học sâu không có phép thuật, chỉ là kiên trì sửa sai ở tốc độ hàng tỷ phép tính mỗi giây. Follow kênh để khám phá bí mật máy học nhé!"
+}

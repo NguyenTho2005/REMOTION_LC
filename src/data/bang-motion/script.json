@@ -1,0 +1,48 @@
+{
+  "repo": "https://github.com/bangtutorial/bang-motion",
+  "title": "Bang Motion Repo Review (Cartoon Collage)",
+  "language": "vi",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSeconds": 48,
+  "durationInFrames": 1440,
+  "voice": {
+    "provider": "ZeroTTS",
+    "service": "tts-service",
+    "voiceId": "quangminh",
+    "style": "reviewer công nghệ hài hước, dứt khoát"
+  },
+  "scenes": [
+    {
+      "id": "scene-1-hook",
+      "title": "Hook",
+      "start_sec": 0,
+      "end_sec": 8,
+      "text": "Nếu bạn đang dùng AI để code video mà kết quả nhìn chẳng khác gì cái PowerPoint chuyển slide thì đây là thứ bạn bắt buộc phải biết!"
+    },
+    {
+      "id": "scene-2-problem-solution",
+      "title": "Problem & Solution",
+      "start_sec": 8,
+      "end_sec": 22,
+      "text": "Repo bang-motion không phải là thư viện UI thông thường. Đây là một agent skill dạy cho AI cách tư duy như một Motion Designer thực thụ!"
+    },
+    {
+      "id": "scene-3-core-mechanics",
+      "title": "Core Mechanics",
+      "start_sec": 22,
+      "end_sec": 38,
+      "text": "Thay vì ngắt cảnh đột ngột, nó ép camera giữ chuyển động liên tục, kinetic typography bung nở theo nhịp đọc, và biến từng dòng lệnh thành hoạt ảnh sống động."
+    },
+    {
+      "id": "scene-4-cta",
+      "title": "CTA",
+      "start_sec": 38,
+      "end_sec": 48,
+      "text": "Clone ngay repo này về thư mục skill của agent để nâng cấp toàn bộ video code của bạn. Link repo mình để ở mô tả nhé!"
+    }
+  ],
+  "fullText": "Nếu bạn đang dùng AI để code video mà kết quả nhìn chẳng khác gì cái PowerPoint chuyển slide thì đây là thứ bạn bắt buộc phải biết! Repo bang-motion không phải là thư viện UI thông thường. Đây là một agent skill dạy cho AI cách tư duy như một Motion Designer thực thụ! Thay vì ngắt cảnh đột ngột, nó ép camera giữ chuyển động liên tục, kinetic typography bung nở theo nhịp đọc, và biến từng dòng lệnh thành hoạt ảnh sống động. Clone ngay repo này về thư mục skill của agent để nâng cấp toàn bộ video code của bạn. Link repo mình để ở mô tả nhé!",
+  "notes": "Audio/timestamps generated as deterministic placeholders if ZeroTTS service unavailable; replace audio.wav and timestamps.json with real TTS+alignment output when available."
+}

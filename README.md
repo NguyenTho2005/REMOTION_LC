@@ -16,6 +16,11 @@ Hệ thống sản xuất video công nghệ tự động cho TikTok sử dụng
   - `RepositoryCard`, `CodeShowcase` & `TerminalAnimation`: Review kho mã nguồn GitHub mã nguồn mở.
 - **ZeroTTS Voice Studio:** Hỗ trợ đầy đủ 8 giọng đọc tiếng Việt 48kHz chất lượng cao, tự động chuẩn hóa văn bản và gắn track trực tiếp vào timeline Remotion.
 - **Quality Assurance Engine:** Tự động kiểm tra chất lượng video đầu ra qua `ffprobe` (khớp thời lượng, tỷ lệ 9:16, 30 FPS, âm thanh stereo, dung lượng file).
+- **Motion Architecture Đa Tầng + Skills/Styles (mới):** Tích hợp kiến trúc motion graphics và animation đa lớp (zero-clock-drift) cho Remotion:
+  - **Tài liệu:** [`docs/MOTION_ARCHITECTURE.md`](docs/MOTION_ARCHITECTURE.md) (bảng quy chuẩn timing/shader/3D/Lottie, phân tầng Background/Midground/Foreground) và [`docs/MOTION_SKILLS_ADAPTER.md`](docs/MOTION_SKILLS_ADAPTER.md).
+  - **Nguồn tham chiếu:** `.agents/skills/bang-motion` (camera/typography/timing concept) và `docs/references/mg-styles-15` (15 motion styles, GLSL/WebGL demos).
+  - **Stack motion:** Remotion clock (`useCurrentFrame`/`interpolate`/`spring`), R3F + `@remotion/three` + `shaderMaterial`, RoughJS, và **Lottie** (`@remotion/lottie` + `lottie-web`, frame-synced).
+  - **PoC & showcase:** `AuroraGlassmorphism`, `LiquidMotionBlob`, `RemotionLottie` wrapper, compositions `MotionStylesShowcase` và `MotionLayeredShowcase` (shader background + RoughJS/Lottie midground + typography foreground).
 
 ---
 
@@ -108,4 +113,5 @@ Chi tiết thiết kế và tài liệu kỹ thuật có sẵn trong thư mục 
 - [`docs/architecture/engine-design.md`](docs/architecture/engine-design.md): Thiết kế các Modular Engines.
 - [`docs/api/orchestrator-api.md`](docs/api/orchestrator-api.md): API tham chiếu của VideoOrchestrator và ToolRegistry.
 - [`docs/development/extending-engines.md`](docs/development/extending-engines.md): Hướng dẫn mở rộng template và đăng ký tool mới.
-- [`AGENTS.md`](AGENTS.md): Bộ quy tắc kỹ thuật và tiêu chuẩn code cho lập trình viên và AI agents.
+- [`docs/MOTION_SKILLS_ADAPTER.md`](docs/MOTION_SKILLS_ADAPTER.md): Quy tắc adapter khi port motion/shader từ `bang-motion` và `mg-styles-15` sang Remotion (deterministic clock, R3F/ThreeCanvas, 9:16).
+- [`AGENTS.md`](AGENTS.md): Bộ quy tắc kỹ thuật và tiêu chuẩn code cho lập trình viên và AI agents (bao gồm hướng dẫn tra cứu motion skills/styles).

@@ -1,0 +1,12 @@
+{
+  "asset_id": "62ba2504-e52e-4ab6-9eae-276fd3591be6",
+  "voice_id": "quangminh",
+  "voice_name": "Quang Minh",
+  "text": "Bạn có bao giờ tự hỏi: tại sao một cỗ máy vô tri lại phân biệt được đâu là con mèo, đâu là con chó? Thực ra nó không nhìn hình ảnh như mắt người. Nó băm nhỏ bức ảnh thành hàng triệu con số, rồi ném qua từng lớp mạng nơ-ron để cân đo đong đếm. Lần đầu đoán sai, nó bị trừ điểm. Nó lập tức lội ngược dòng để chỉnh lại các trọng số nơ-ron. Sai hàng triệu lần như thế, nó bắt đầu đoán trúng phóc! Học sâu không có phép thuật, chỉ là kiên trì sửa sai ở tốc độ hàng tỷ phép tính mỗi giây. Follow kênh để khám phá bí mật máy học nhé!",
+  "file_name": "62ba2504-e52e-4ab6-9eae-276fd3591be6.wav",
+  "audio_url": "/audio/generated/62ba2504-e52e-4ab6-9eae-276fd3591be6.wav",
+  "duration": 25.84,
+  "sample_rate": 48000,
+  "created_at": "2026-11-11T13:11:01.572081+00:00",
+  "status": "completed"
+}
